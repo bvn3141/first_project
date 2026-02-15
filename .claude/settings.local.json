@@ -1,0 +1,27 @@
+{
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "WebFetch(domain:github.com)",
+      "WebFetch(domain:www.football-data.co.uk)",
+      "Bash(node --version:*)",
+      "Bash(npm:*)",
+      "Bash(pip:*)",
+      "Bash(git --version)",
+      "Bash(npx:*)",
+      "WebFetch(domain:www.color-hex.com)",
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "Bash(curl:*)",
+      "Bash(python:*)",
+      "Bash(python3:*)",
+      "Bash(node -e \"const d=require\\(''fs''\\).readFileSync\\(0,''utf8''\\);const j=JSON.parse\\(d\\);j.tree.filter\\(x=>x.type===''blob''&&\\(x.path.includes\\(''dbt''\\)||x.path.toLowerCase\\(\\).includes\\(''schema''\\)\\)\\).forEach\\(x=>console.log\\(x.path\\)\\)\")",
+      "Bash(git init:*)",
+      "Bash(gh auth status:*)",
+      "Bash(gh repo create:*)",
+      "Bash(git remote add:*)",
+      "Bash(git branch:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)"
+    ]
+  }
+}

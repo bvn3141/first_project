@@ -1,0 +1,12 @@
+[
+  {"player_name":"N. Neymar","from_club":"Barcelona","to_club":"PSG","fee":222000000},
+  {"player_name":"K. Mbappe","from_club":"Monaco","to_club":"PSG","fee":180000000},
+  {"player_name":"P. Coutinho","from_club":"Liverpool","to_club":"Barcelona","fee":145000000},
+  {"player_name":"J. Felix","from_club":"Benfica","to_club":"Atletico Madrid","fee":127200000},
+  {"player_name":"A. Griezmann","from_club":"Atletico Madrid","to_club":"Barcelona","fee":120000000},
+  {"player_name":"D. Rice","from_club":"West Ham","to_club":"Arsenal","fee":116600000},
+  {"player_name":"M. Caicedo","from_club":"Brighton","to_club":"Chelsea","fee":115000000},
+  {"player_name":"R. Lukaku","from_club":"Inter Milan","to_club":"Chelsea","fee":113000000},
+  {"player_name":"J. Bellingham","from_club":"Dortmund","to_club":"Real Madrid","fee":103000000},
+  {"player_name":"J. Sancho","from_club":"Dortmund","to_club":"Man Utd","fee":85000000}
+]
