@@ -66,6 +66,12 @@
 - [x] public/data/player_positions.json -- Position-Treemap, Value Distribution Histogram
 - [x] dashboard/src/types/data.ts -- TypeScript Interfaces fuer alle JSON-Strukturen
 
+### Phase 5d: Datenqualitaet -- ERLEDIGT
+- [x] Liga-Namen: Competition-IDs auf Klarnamen gemappt (Premier League statt premier-league)
+- [x] Club-Namen: Juristische Vollnamen gekuerzt (Man City statt Manchester City Football Club)
+- [x] Age Groups: Logische Sortierung (U21, 21-24, ...) statt alphabetisch
+- [x] ROI: Gekappt bei +/-200% -- Akademie-lastige Clubs (Real, Barca) hatten sonst verzerrte Werte
+
 ### Phase 6: Deployment -- ERLEDIGT
 - [x] Vite base path konfiguriert ('/first_project/')
 - [x] Code-Splitting (React.lazy + Suspense)
