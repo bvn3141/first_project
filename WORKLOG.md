@@ -2,7 +2,7 @@
 
 ## Aktueller Status
 
-**Phase**: VOLLSTAENDIG -- Dashboard live mit echten Daten
+**Phase**: VOLLSTAENDIG -- Alle Seiten mit echten Daten (keine Mock-Daten mehr)
 **Letztes Update**: 2026-02-15
 **Live URL**: https://bvn3141.github.io/first_project/
 **GitHub Repo**: https://github.com/bvn3141/first_project
@@ -34,7 +34,7 @@
 ### Phase 3: Python-Analyse -- ERLEDIGT
 - [x] notebooks/02_exploratory_analysis.ipynb -- EDA mit 4 Charts (Trends, Age Curves, Distribution)
 - [x] notebooks/04_statistical_models.ipynb -- Regression, K-Means Clustering, Rolling Volatility
-- [x] notebooks/05_export_dashboard_data.ipynb -- JSON-Export aller 5 Dashboard-Dateien
+- [x] notebooks/05_export_dashboard_data.ipynb -- JSON-Export aller 8 Dashboard-Dateien
 
 ### Phase 4: React Dashboard Setup -- ERLEDIGT
 - [x] Vite + React 19 + TypeScript Projekt initialisiert
@@ -55,12 +55,16 @@
 - [x] Framer Motion PageTransition -- alle 6 Pages mit AnimatePresence
 - [x] Code-Splitting (React.lazy + Suspense) -- Chunk-Warnung behoben
 
-### Phase 5c: Dashboard-Daten -- ECHTE DATEN (nicht mehr Mock)
+### Phase 5c: Dashboard-Daten -- ALLE ECHTE DATEN
 - [x] public/data/market_overview.json -- 70 Eintraege (Big 5, 2012-2025)
 - [x] public/data/top_transfers.json -- Top 15 echte Transferfees
 - [x] public/data/league_comparison.json -- aktuelle 5 Ligen mit Top-Club
 - [x] public/data/age_curves.json -- echte Median-Werte Age 17-38, 4 Positionen
 - [x] public/data/risk_metrics.json -- echte Volatility, Drawdown, Sharpe Ratios
+- [x] public/data/transfer_analytics.json -- ROI-Verteilung, Net Spend, Fee-vs-Value Scatter
+- [x] public/data/club_financials.json -- Top 20 Clubs (Squad Value, Star Dependency, Age Groups)
+- [x] public/data/player_positions.json -- Position-Treemap, Value Distribution Histogram
+- [x] dashboard/src/types/data.ts -- TypeScript Interfaces fuer alle JSON-Strukturen
 
 ### Phase 6: Deployment -- ERLEDIGT
 - [x] Vite base path konfiguriert ('/first_project/')
@@ -76,34 +80,18 @@
 
 ## Naechster Schritt (naechste Session)
 
-Das Projekt ist grundsaetzlich fertig und live. Moegliche Verbesserungen:
+Alle Seiten nutzen jetzt echte Daten. Moegliche Verbesserungen:
 
-### Optionale Erweiterungen (Prioritaet hoch):
+### Optionale Erweiterungen:
 1. **Responsive Design**: Mobile Breakpoints in allen Pages ergaenzen (derzeit Desktop-only)
-2. **Club Intelligence mit echten Daten**: Statt 3 hardcodierten Clubs echte club_financials.json
-   - SQL: `notebooks/05_export_dashboard_data.ipynb` erweitern um club_financials.json
-   - Query basiert auf `player_valuations` gruppiert nach `current_club_name`
-3. **Transfer Analytics -- ROI mit echten Daten**: MOCK_ROI_DATA und MOCK_NET_SPEND
-   in `TransferAnalytics.tsx` durch echte JSON-Daten ersetzen
-   - Neue Datei: `public/data/transfer_analytics.json` mit ROI-Verteilung und Net Spend
-4. **Sankey Chart**: Transfer-Flows zwischen Ligen visualisieren (Nivo Sankey ist installiert)
-
-### Optionale Erweiterungen (Prioritaet niedrig):
-5. **Responsive Design**: Mobile Breakpoints
-6. **Screenshots**: README.md mit echten Dashboard-Screenshots erweitern
-7. **Custom Domain**: Optional GitHub Pages Custom Domain konfigurieren
-
-### Bekannte offene Baustellen in Pages:
-- `TransferAnalytics.tsx`: `MOCK_ROI_DATA` und `MOCK_NET_SPEND` sind noch Platzhalter
-- `ClubIntelligence.tsx`: `CLUBS` Array ist hardcodiert (3 Clubs), nicht aus JSON geladen
-- `PlayerValuation.tsx`: `POSITION_DATA` (Treemap) und `VALUE_DISTRIBUTION` sind noch Mock
+2. **Sankey Chart**: Transfer-Flows zwischen Ligen visualisieren (Nivo Sankey ist installiert)
+3. **Screenshots**: README.md mit echten Dashboard-Screenshots erweitern
+4. **Custom Domain**: Optional GitHub Pages Custom Domain konfigurieren
 
 ---
 
 ## Bekannte Issues
 
-- **Mock-Reste**: TransferAnalytics (ROI, Net Spend), ClubIntelligence (Club-Daten),
-  PlayerValuation (Treemap, Value Distribution) nutzen noch hardcodierte Mock-Daten
 - **Responsive Design**: Desktop-optimiert, mobile Breakpoints fehlen
 - **clubs.total_market_value**: Spalte ist NULL im Kaggle-Datensatz -- Cluster-Modell
   nutzt stattdessen Werte aus player_valuations aggregiert nach Club

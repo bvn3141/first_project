@@ -5,6 +5,7 @@ import LoadingSpinner from '../components/ui/LoadingSpinner';
 import PageTransition from '../components/ui/PageTransition';
 import AgeCurveChart from '../components/charts/AgeCurveChart';
 import { useData } from '../hooks/useData';
+import type { PlayerPositionsData } from '../types/data';
 import { formatEur } from '../utils/formatters';
 import {
   BarChart,
@@ -26,37 +27,12 @@ interface AgeCurveData {
   Goalkeeper: number;
 }
 
-// Mock position data for treemap
-const POSITION_DATA = [
-  { name: 'Centre-Forward', size: 8500000000, position: 'Attack' },
-  { name: 'Left Winger', size: 6200000000, position: 'Attack' },
-  { name: 'Right Winger', size: 5800000000, position: 'Attack' },
-  { name: 'Central Midfield', size: 5500000000, position: 'Midfield' },
-  { name: 'Attacking Midfield', size: 4800000000, position: 'Midfield' },
-  { name: 'Defensive Midfield', size: 4200000000, position: 'Midfield' },
-  { name: 'Centre-Back', size: 7200000000, position: 'Defender' },
-  { name: 'Left-Back', size: 3800000000, position: 'Defender' },
-  { name: 'Right-Back', size: 3500000000, position: 'Defender' },
-  { name: 'Goalkeeper', size: 2800000000, position: 'Goalkeeper' },
-];
-
 const POSITION_COLORS: Record<string, string> = {
   Attack: chartColors[0],
   Midfield: chartColors[1],
   Defender: chartColors[2],
   Goalkeeper: chartColors[3],
 };
-
-// Mock value distribution (histogram bins)
-const VALUE_DISTRIBUTION = [
-  { range: '<1M', count: 12500 },
-  { range: '1-5M', count: 8200 },
-  { range: '5-10M', count: 4100 },
-  { range: '10-20M', count: 2300 },
-  { range: '20-50M', count: 1200 },
-  { range: '50-100M', count: 380 },
-  { range: '>100M', count: 45 },
-];
 
 interface TreemapContentProps {
   x: number;
@@ -102,9 +78,22 @@ function CustomTreemapContent({ x, y, width, height, name, position }: TreemapCo
 }
 
 export default function PlayerValuation() {
-  const { data: ageCurves, loading } = useData<AgeCurveData[]>('age_curves.json');
+  const { data: ageCurves, loading: loadingAge } = useData<AgeCurveData[]>('age_curves.json');
+  const { data: positions, loading: loadingPos } = useData<PlayerPositionsData>('player_positions.json');
 
-  if (loading) return <LoadingSpinner />;
+  if (loadingAge || loadingPos) return <LoadingSpinner />;
+
+  // Compute KPIs from age curves
+  const peakAttack = ageCurves?.reduce((best, d) => (d.Attack > (best?.Attack ?? 0) ? d : best), ageCurves[0]);
+  const peakGk = ageCurves?.reduce((best, d) => (d.Goalkeeper > (best?.Goalkeeper ?? 0) ? d : best), ageCurves[0]);
+  const over30 = ageCurves?.filter(d => d.age >= 30) ?? [];
+  const under30 = ageCurves?.filter(d => d.age >= 27 && d.age < 30) ?? [];
+  const avgDepreciation = over30.length > 0 && under30.length > 0
+    ? ((over30.reduce((s, d) => s + d.Attack, 0) / over30.length)
+      - (under30.reduce((s, d) => s + d.Attack, 0) / under30.length))
+      / (under30.reduce((s, d) => s + d.Attack, 0) / under30.length) * 100
+    : -15.8;
+  const topPosition = positions?.treemap?.[0];
 
   return (
     <PageTransition>
@@ -115,17 +104,17 @@ export default function PlayerValuation() {
       <div className="p-6 space-y-6">
         {/* KPIs */}
         <div className="grid grid-cols-4 gap-4">
-          <KPICard label="Peak Age (Attackers)" value={26} format={(v) => Math.round(v).toString()} />
-          <KPICard label="Peak Age (Goalkeepers)" value={29} format={(v) => Math.round(v).toString()} />
+          <KPICard label="Peak Age (Attackers)" value={peakAttack?.age ?? 26} format={(v) => Math.round(v).toString()} />
+          <KPICard label="Peak Age (Goalkeepers)" value={peakGk?.age ?? 29} format={(v) => Math.round(v).toString()} />
           <KPICard
             label="Avg Depreciation 30+"
-            value={-15.8}
+            value={Math.round(avgDepreciation * 10) / 10}
             format={(v) => `${v.toFixed(1)}%/yr`}
           />
           <KPICard
             label="Highest Valued Position"
-            value={23000000}
-            format={(v) => `${formatEur(v)} (CF)`}
+            value={topPosition?.size ?? 0}
+            format={(v) => `${formatEur(v)} (${topPosition?.name ?? 'CF'})`}
           />
         </div>
 
@@ -147,7 +136,7 @@ export default function PlayerValuation() {
             />
             <ResponsiveContainer width="100%" height={300}>
               <Treemap
-                data={POSITION_DATA}
+                data={positions?.treemap ?? []}
                 dataKey="size"
                 aspectRatio={4 / 3}
                 content={<CustomTreemapContent x={0} y={0} width={0} height={0} name="" position="" />}
@@ -169,7 +158,7 @@ export default function PlayerValuation() {
               subtitle="Number of players per value bracket"
             />
             <ResponsiveContainer width="100%" height={300}>
-              <BarChart data={VALUE_DISTRIBUTION}>
+              <BarChart data={positions?.value_distribution ?? []}>
                 <CartesianGrid strokeDasharray="3 3" stroke={colors.border.subtle} />
                 <XAxis
                   dataKey="range"

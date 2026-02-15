@@ -3,6 +3,9 @@ import Header from '../components/layout/Header';
 import PageTransition from '../components/ui/PageTransition';
 import KPICard from '../components/ui/KPICard';
 import SectionHeader from '../components/ui/SectionHeader';
+import LoadingSpinner from '../components/ui/LoadingSpinner';
+import { useData } from '../hooks/useData';
+import type { ClubData } from '../types/data';
 import { formatEur } from '../utils/formatters';
 import { colors, chartColors } from '../theme/colors';
 import {
@@ -19,66 +22,15 @@ import {
   Legend,
 } from 'recharts';
 
-// Mock data -- will be replaced by club_financials.json
-const CLUBS = [
-  {
-    name: 'Manchester City',
-    league: 'Premier League',
-    squad_value: 1230000000,
-    avg_age: 26.3,
-    star_dependency: 12.3,
-    invested_5yr: 890000000,
-    roi: 38.2,
-    positions: { Attack: 340000000, Midfield: 420000000, Defender: 380000000, Goalkeeper: 90000000 },
-    age_groups: [
-      { group: 'U21', count: 3, value: 45000000 },
-      { group: '21-24', count: 7, value: 280000000 },
-      { group: '25-28', count: 9, value: 520000000 },
-      { group: '29-32', count: 6, value: 320000000 },
-      { group: '33+', count: 2, value: 65000000 },
-    ],
-  },
-  {
-    name: 'Real Madrid',
-    league: 'La Liga',
-    squad_value: 1120000000,
-    avg_age: 27.1,
-    star_dependency: 15.8,
-    invested_5yr: 650000000,
-    roi: 72.3,
-    positions: { Attack: 380000000, Midfield: 350000000, Defender: 310000000, Goalkeeper: 80000000 },
-    age_groups: [
-      { group: 'U21', count: 2, value: 65000000 },
-      { group: '21-24', count: 5, value: 320000000 },
-      { group: '25-28', count: 8, value: 420000000 },
-      { group: '29-32', count: 7, value: 250000000 },
-      { group: '33+', count: 3, value: 65000000 },
-    ],
-  },
-  {
-    name: 'Bayern Munich',
-    league: 'Bundesliga',
-    squad_value: 890000000,
-    avg_age: 25.8,
-    star_dependency: 11.2,
-    invested_5yr: 580000000,
-    roi: 53.4,
-    positions: { Attack: 280000000, Midfield: 290000000, Defender: 250000000, Goalkeeper: 70000000 },
-    age_groups: [
-      { group: 'U21', count: 4, value: 80000000 },
-      { group: '21-24', count: 8, value: 310000000 },
-      { group: '25-28', count: 7, value: 320000000 },
-      { group: '29-32', count: 5, value: 150000000 },
-      { group: '33+', count: 1, value: 30000000 },
-    ],
-  },
-];
-
 const POSITION_COLORS = [chartColors[0], chartColors[1], chartColors[2], chartColors[3]];
 
 export default function ClubIntelligence() {
+  const { data: clubs, loading } = useData<ClubData[]>('club_financials.json');
   const [selectedIdx, setSelectedIdx] = useState(0);
-  const club = CLUBS[selectedIdx];
+
+  if (loading || !clubs) return <LoadingSpinner />;
+
+  const club = clubs[selectedIdx];
   const pieData = Object.entries(club.positions).map(([name, value]) => ({ name, value }));
 
   return (
@@ -89,8 +41,8 @@ export default function ClubIntelligence() {
       />
       <div className="p-6 space-y-6">
         {/* Club Selector */}
-        <div className="flex gap-2">
-          {CLUBS.map((c, i) => (
+        <div className="flex flex-wrap gap-2">
+          {clubs.map((c, i) => (
             <button
               key={c.name}
               onClick={() => setSelectedIdx(i)}

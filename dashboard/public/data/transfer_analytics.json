@@ -1,0 +1,1277 @@
+{
+  "roi_distribution": [
+    {
+      "category": "Excellent (>50%)",
+      "count": 375,
+      "avg_roi": 141.2
+    },
+    {
+      "category": "Positive (0-50%)",
+      "count": 491,
+      "avg_roi": 20.5
+    },
+    {
+      "category": "Moderate Loss",
+      "count": 869,
+      "avg_roi": -26.4
+    },
+    {
+      "category": "Significant Loss",
+      "count": 221,
+      "avg_roi": -64.2
+    }
+  ],
+  "net_spend": [
+    {
+      "club": "Arsenal",
+      "net_spend": -830650000
+    },
+    {
+      "club": "Chelsea",
+      "net_spend": -826090000
+    },
+    {
+      "club": "PSG",
+      "net_spend": -738320000
+    },
+    {
+      "club": "Man Utd",
+      "net_spend": -738000000
+    },
+    {
+      "club": "Tottenham",
+      "net_spend": -710100000
+    },
+    {
+      "club": "Liverpool",
+      "net_spend": -690650000
+    },
+    {
+      "club": "River Plate",
+      "net_spend": 170020000
+    },
+    {
+      "club": "Benfica",
+      "net_spend": 178270000
+    },
+    {
+      "club": "Lille",
+      "net_spend": 192850000
+    },
+    {
+      "club": "Salzburg",
+      "net_spend": 225290000
+    },
+    {
+      "club": "Palmeiras",
+      "net_spend": 257760000
+    },
+    {
+      "club": "Ajax",
+      "net_spend": 257990000
+    }
+  ],
+  "scatter": [
+    {
+      "fee": 180000000.0,
+      "value_change": 50.0,
+      "age": 20,
+      "name": "Kylian Mbapp\u00e9"
+    },
+    {
+      "fee": 148000000.0,
+      "value_change": 257.1,
+      "age": 20,
+      "name": "Ousmane Demb\u00e9l\u00e9"
+    },
+    {
+      "fee": 135000000.0,
+      "value_change": 55.6,
+      "age": 26,
+      "name": "Philippe Coutinho"
+    },
+    {
+      "fee": 127200000.0,
+      "value_change": 14.3,
+      "age": 20,
+      "name": "Jo\u00e3o F\u00e9lix"
+    },
+    {
+      "fee": 127000000.0,
+      "value_change": 80.0,
+      "age": 20,
+      "name": "Jude Bellingham"
+    },
+    {
+      "fee": 121000000.0,
+      "value_change": 1207.7,
+      "age": 22,
+      "name": "Enzo Fern\u00e1ndez"
+    },
+    {
+      "fee": 120000000.0,
+      "value_change": -4.0,
+      "age": 28,
+      "name": "Antoine Griezmann"
+    },
+    {
+      "fee": 117500000.0,
+      "value_change": -45.0,
+      "age": 26,
+      "name": "Jack Grealish"
+    },
+    {
+      "fee": 116600000.0,
+      "value_change": 50.0,
+      "age": 24,
+      "name": "Declan Rice"
+    },
+    {
+      "fee": 116000000.0,
+      "value_change": 2344.4,
+      "age": 22,
+      "name": "Mois\u00e9s Caicedo"
+    },
+    {
+      "fee": 113000000.0,
+      "value_change": -19.1,
+      "age": 28,
+      "name": "Romelu Lukaku"
+    },
+    {
+      "fee": 105000000.0,
+      "value_change": 63.6,
+      "age": 23,
+      "name": "Paul Pogba"
+    },
+    {
+      "fee": 100000000.0,
+      "value_change": -13.6,
+      "age": 21,
+      "name": "Kai Havertz"
+    },
+    {
+      "fee": 95000000.0,
+      "value_change": -16.7,
+      "age": 30,
+      "name": "Harry Kane"
+    },
+    {
+      "fee": 95000000.0,
+      "value_change": 33.3,
+      "age": 25,
+      "name": "Randal Kolo Muani"
+    },
+    {
+      "fee": 95000000.0,
+      "value_change": 42.9,
+      "age": 23,
+      "name": "Antony"
+    },
+    {
+      "fee": 90000000.0,
+      "value_change": 16.7,
+      "age": 22,
+      "name": "Josko Gvardiol"
+    },
+    {
+      "fee": 87000000.0,
+      "value_change": 273.3,
+      "age": 26,
+      "name": "Harry Maguire"
+    },
+    {
+      "fee": 86000000.0,
+      "value_change": 928.6,
+      "age": 22,
+      "name": "Frenkie de Jong"
+    },
+    {
+      "fee": 85500000.0,
+      "value_change": 68.8,
+      "age": 20,
+      "name": "Matthijs de Ligt"
+    },
+    {
+      "fee": 85000000.0,
+      "value_change": -64.4,
+      "age": 21,
+      "name": "Jadon Sancho"
+    },
+    {
+      "fee": 85000000.0,
+      "value_change": 18.2,
+      "age": 23,
+      "name": "Darwin N\u00fa\u00f1ez"
+    },
+    {
+      "fee": 84700000.0,
+      "value_change": 114.3,
+      "age": 24,
+      "name": "Romelu Lukaku"
+    },
+    {
+      "fee": 84650000.0,
+      "value_change": 733.3,
+      "age": 26,
+      "name": "Virgil van Dijk"
+    },
+    {
+      "fee": 83500000.0,
+      "value_change": 62.5,
+      "age": 22,
+      "name": "Du\u0161an Vlahovi\u0107"
+    },
+    {
+      "fee": 80600000.0,
+      "value_change": -37.5,
+      "age": 24,
+      "name": "Arthur Melo"
+    },
+    {
+      "fee": 80400000.0,
+      "value_change": -38.5,
+      "age": 22,
+      "name": "Wesley Fofana"
+    },
+    {
+      "fee": 80000000.0,
+      "value_change": 200.0,
+      "age": 24,
+      "name": "Kepa Arrizabalaga"
+    },
+    {
+      "fee": 80000000.0,
+      "value_change": 180.0,
+      "age": 23,
+      "name": "Lucas Hern\u00e1ndez"
+    },
+    {
+      "fee": 80000000.0,
+      "value_change": -20.0,
+      "age": 24,
+      "name": "Nicolas P\u00e9p\u00e9"
+    },
+    {
+      "fee": 80000000.0,
+      "value_change": 300.0,
+      "age": 22,
+      "name": "Aur\u00e9lien Tchouam\u00e9ni"
+    },
+    {
+      "fee": 78900000.0,
+      "value_change": 140.7,
+      "age": 22,
+      "name": "Victor Osimhen"
+    },
+    {
+      "fee": 77500000.0,
+      "value_change": 140.0,
+      "age": 23,
+      "name": "Alexander Isak"
+    },
+    {
+      "fee": 76000000.0,
+      "value_change": 114.3,
+      "age": 24,
+      "name": "Kevin De Bruyne"
+    },
+    {
+      "fee": 75000000.0,
+      "value_change": -21.4,
+      "age": 24,
+      "name": "Kai Havertz"
+    },
+    {
+      "fee": 74000000.0,
+      "value_change": -20.0,
+      "age": 26,
+      "name": "Romelu Lukaku"
+    },
+    {
+      "fee": 72500000.0,
+      "value_change": 50.0,
+      "age": 26,
+      "name": "Alisson"
+    },
+    {
+      "fee": 72000000.0,
+      "value_change": -38.5,
+      "age": 23,
+      "name": "Thomas Lemar"
+    },
+    {
+      "fee": 71600000.0,
+      "value_change": 145.9,
+      "age": 23,
+      "name": "R\u00faben Dias"
+    },
+    {
+      "fee": 70650000.0,
+      "value_change": -70.0,
+      "age": 30,
+      "name": "Casemiro"
+    },
+    {
+      "fee": 70000000.0,
+      "value_change": 220.0,
+      "age": 23,
+      "name": "Rodri"
+    },
+    {
+      "fee": 70000000.0,
+      "value_change": 142.9,
+      "age": 23,
+      "name": "Dominik Szoboszlai"
+    },
+    {
+      "fee": 70000000.0,
+      "value_change": -25.0,
+      "age": 22,
+      "name": "Mykhaylo Mudryk"
+    },
+    {
+      "fee": 68000000.0,
+      "value_change": 0.0,
+      "age": 23,
+      "name": "Achraf Hakimi"
+    },
+    {
+      "fee": 67700000.0,
+      "value_change": -57.3,
+      "age": 24,
+      "name": "Mason Mount"
+    },
+    {
+      "fee": 67000000.0,
+      "value_change": -21.4,
+      "age": 23,
+      "name": "Matthijs de Ligt"
+    },
+    {
+      "fee": 66000000.0,
+      "value_change": 25.0,
+      "age": 25,
+      "name": "\u00c1lvaro Morata"
+    },
+    {
+      "fee": 65300000.0,
+      "value_change": -49.1,
+      "age": 24,
+      "name": "Marc Cucurella"
+    },
+    {
+      "fee": 65000000.0,
+      "value_change": 200.0,
+      "age": 24,
+      "name": "Aymeric Laporte"
+    },
+    {
+      "fee": 65000000.0,
+      "value_change": -34.5,
+      "age": 25,
+      "name": "Jo\u00e3o Cancelo"
+    },
+    {
+      "fee": 65000000.0,
+      "value_change": 50.0,
+      "age": 25,
+      "name": "Bruno Fernandes"
+    },
+    {
+      "fee": 64000000.0,
+      "value_change": 20.0,
+      "age": 20,
+      "name": "Christian Pulisic"
+    },
+    {
+      "fee": 64000000.0,
+      "value_change": -24.0,
+      "age": 23,
+      "name": "Sandro Tonali"
+    },
+    {
+      "fee": 63750000.0,
+      "value_change": 7.7,
+      "age": 29,
+      "name": "Pierre-Emerick Aubameyang"
+    },
+    {
+      "fee": 63700000.0,
+      "value_change": 25.0,
+      "age": 21,
+      "name": "Raheem Sterling"
+    },
+    {
+      "fee": 63000000.0,
+      "value_change": 20.0,
+      "age": 27,
+      "name": "\u00c1ngel Di Mar\u00eda"
+    },
+    {
+      "fee": 63000000.0,
+      "value_change": -41.8,
+      "age": 22,
+      "name": "Luka Jovi\u0107"
+    },
+    {
+      "fee": 62100000.0,
+      "value_change": 20.0,
+      "age": 20,
+      "name": "Rom\u00e9o Lavia"
+    },
+    {
+      "fee": 62000000.0,
+      "value_change": -20.0,
+      "age": 23,
+      "name": "Tanguy Ndomb\u00e9l\u00e9"
+    },
+    {
+      "fee": 62000000.0,
+      "value_change": 26.7,
+      "age": 25,
+      "name": "Matheus Nunes"
+    },
+    {
+      "fee": 60000000.0,
+      "value_change": 300.0,
+      "age": 20,
+      "name": "Anthony Martial"
+    },
+    {
+      "fee": 60000000.0,
+      "value_change": -7.7,
+      "age": 23,
+      "name": "Naby Ke\u00efta"
+    },
+    {
+      "fee": 60000000.0,
+      "value_change": -6.7,
+      "age": 26,
+      "name": "Malcom"
+    },
+    {
+      "fee": 60000000.0,
+      "value_change": 17.6,
+      "age": 22,
+      "name": "Erling Haaland"
+    },
+    {
+      "fee": 60000000.0,
+      "value_change": -10.0,
+      "age": 22,
+      "name": "Manuel Ugarte"
+    },
+    {
+      "fee": 60000000.0,
+      "value_change": 261.1,
+      "age": 21,
+      "name": "J\u00e9r\u00e9my Doku"
+    },
+    {
+      "fee": 59000000.0,
+      "value_change": 250.0,
+      "age": 25,
+      "name": "Fred"
+    },
+    {
+      "fee": 58500000.0,
+      "value_change": -25.0,
+      "age": 24,
+      "name": "Ben White"
+    },
+    {
+      "fee": 58000000.0,
+      "value_change": -20.0,
+      "age": 25,
+      "name": "Richarlison"
+    },
+    {
+      "fee": 58000000.0,
+      "value_change": 0.0,
+      "age": 26,
+      "name": "Raphinha"
+    },
+    {
+      "fee": 57500000.0,
+      "value_change": 207.7,
+      "age": 23,
+      "name": "Benjamin Mendy"
+    },
+    {
+      "fee": 57370000.0,
+      "value_change": 9.4,
+      "age": 25,
+      "name": "Lisandro Mart\u00ednez"
+    },
+    {
+      "fee": 57000000.0,
+      "value_change": 30.0,
+      "age": 27,
+      "name": "Jorginho"
+    },
+    {
+      "fee": 56200000.0,
+      "value_change": -28.6,
+      "age": 28,
+      "name": "Raheem Sterling"
+    },
+    {
+      "fee": 55600000.0,
+      "value_change": 42.9,
+      "age": 22,
+      "name": "John Stones"
+    },
+    {
+      "fee": 55000000.0,
+      "value_change": 10.0,
+      "age": 24,
+      "name": "Moussa Diaby"
+    },
+    {
+      "fee": 55000000.0,
+      "value_change": -33.3,
+      "age": 22,
+      "name": "Ferran Torres"
+    },
+    {
+      "fee": 55000000.0,
+      "value_change": 75.0,
+      "age": 22,
+      "name": "Brennan Johnson"
+    },
+    {
+      "fee": 55000000.0,
+      "value_change": 14.3,
+      "age": 22,
+      "name": "Aaron Wan-Bissaka"
+    },
+    {
+      "fee": 53000000.0,
+      "value_change": 50.0,
+      "age": 26,
+      "name": "Alexandre Lacazette"
+    },
+    {
+      "fee": 53000000.0,
+      "value_change": 1.6,
+      "age": 24,
+      "name": "Timo Werner"
+    },
+    {
+      "fee": 52700000.0,
+      "value_change": 284.6,
+      "age": 27,
+      "name": "Kyle Walker"
+    },
+    {
+      "fee": 52200000.0,
+      "value_change": -26.7,
+      "age": 25,
+      "name": "Gabriel Jesus"
+    },
+    {
+      "fee": 52000000.0,
+      "value_change": 316.7,
+      "age": 21,
+      "name": "Leroy San\u00e9"
+    },
+    {
+      "fee": 52000000.0,
+      "value_change": 9.1,
+      "age": 24,
+      "name": "Cristian Romero"
+    },
+    {
+      "fee": 50200000.0,
+      "value_change": 42.9,
+      "age": 27,
+      "name": "Andr\u00e9 Onana"
+    },
+    {
+      "fee": 50200000.0,
+      "value_change": -5.0,
+      "age": 24,
+      "name": "Ben Chilwell"
+    },
+    {
+      "fee": 50000000.0,
+      "value_change": -47.8,
+      "age": 26,
+      "name": "Alex Teixeira"
+    },
+    {
+      "fee": 50000000.0,
+      "value_change": -56.2,
+      "age": 27,
+      "name": "Mauro Icardi"
+    },
+    {
+      "fee": 50000000.0,
+      "value_change": -10.0,
+      "age": 25,
+      "name": "S\u00e9bastien Haller"
+    },
+    {
+      "fee": 50000000.0,
+      "value_change": 0.0,
+      "age": 27,
+      "name": "Thomas Partey"
+    },
+    {
+      "fee": 50000000.0,
+      "value_change": 100.0,
+      "age": 23,
+      "name": "Bernardo Silva"
+    },
+    {
+      "fee": 50000000.0,
+      "value_change": -8.3,
+      "age": 26,
+      "name": "Ousmane Demb\u00e9l\u00e9"
+    },
+    {
+      "fee": 50000000.0,
+      "value_change": -20.0,
+      "age": 21,
+      "name": "\u00c9der Milit\u00e3o"
+    },
+    {
+      "fee": 50000000.0,
+      "value_change": -25.0,
+      "age": 24,
+      "name": "Jules Kound\u00e9"
+    },
+    {
+      "fee": 50000000.0,
+      "value_change": 14.3,
+      "age": 27,
+      "name": "Min-jae Kim"
+    },
+    {
+      "fee": 50000000.0,
+      "value_change": 250.0,
+      "age": 24,
+      "name": "Matheus Cunha"
+    },
+    {
+      "fee": 49500000.0,
+      "value_change": 66.7,
+      "age": 20,
+      "name": "Rafael Le\u00e3o"
+    },
+    {
+      "fee": 49400000.0,
+      "value_change": 20.0,
+      "age": 28,
+      "name": "Gylfi Sigurdsson"
+    },
+    {
+      "fee": 49000000.0,
+      "value_change": -40.0,
+      "age": 25,
+      "name": "Leroy San\u00e9"
+    },
+    {
+      "fee": 49000000.0,
+      "value_change": -36.0,
+      "age": 27,
+      "name": "Kalvin Phillips"
+    },
+    {
+      "fee": 49000000.0,
+      "value_change": 788.9,
+      "age": 25,
+      "name": "Luis D\u00edaz"
+    },
+    {
+      "fee": 48000000.0,
+      "value_change": 33.3,
+      "age": 24,
+      "name": "Ferland Mendy"
+    },
+    {
+      "fee": 47400000.0,
+      "value_change": 22.2,
+      "age": 24,
+      "name": "Matheus Nunes"
+    },
+    {
+      "fee": 47000000.0,
+      "value_change": 700.0,
+      "age": 21,
+      "name": "Cole Palmer"
+    },
+    {
+      "fee": 46900000.0,
+      "value_change": 71.4,
+      "age": 25,
+      "name": "Bremer"
+    },
+    {
+      "fee": 46300000.0,
+      "value_change": -45.5,
+      "age": 27,
+      "name": "James Maddison"
+    },
+    {
+      "fee": 45600000.0,
+      "value_change": 25.0,
+      "age": 22,
+      "name": "Anthony Gordon"
+    },
+    {
+      "fee": 45300000.0,
+      "value_change": 7.1,
+      "age": 25,
+      "name": "Nathan Ak\u00e9"
+    },
+    {
+      "fee": 45000000.0,
+      "value_change": -66.7,
+      "age": 34,
+      "name": "Robert Lewandowski"
+    },
+    {
+      "fee": 45000000.0,
+      "value_change": 44.0,
+      "age": 25,
+      "name": "Mateo Kovacic"
+    },
+    {
+      "fee": 45000000.0,
+      "value_change": 0.0,
+      "age": 24,
+      "name": "Granit Xhaka"
+    },
+    {
+      "fee": 45000000.0,
+      "value_change": 100.0,
+      "age": 22,
+      "name": "Youri Tielemans"
+    },
+    {
+      "fee": 45000000.0,
+      "value_change": -36.0,
+      "age": 27,
+      "name": "Lucas Hern\u00e1ndez"
+    },
+    {
+      "fee": 45000000.0,
+      "value_change": -30.0,
+      "age": 24,
+      "name": "Hirving Lozano"
+    },
+    {
+      "fee": 45000000.0,
+      "value_change": 250.0,
+      "age": 18,
+      "name": "Vinicius Junior"
+    },
+    {
+      "fee": 45000000.0,
+      "value_change": -40.0,
+      "age": 25,
+      "name": "Axel Disasi"
+    },
+    {
+      "fee": 45000000.0,
+      "value_change": 12.5,
+      "age": 18,
+      "name": "Rodrygo"
+    },
+    {
+      "fee": 45000000.0,
+      "value_change": 3150.0,
+      "age": 21,
+      "name": "Bradley Barcola"
+    },
+    {
+      "fee": 44780000.0,
+      "value_change": 50.0,
+      "age": 24,
+      "name": "Jo\u00e3o M\u00e1rio"
+    },
+    {
+      "fee": 44700000.0,
+      "value_change": -47.4,
+      "age": 29,
+      "name": "Nemanja Mati\u0107"
+    },
+    {
+      "fee": 44700000.0,
+      "value_change": 114.3,
+      "age": 24,
+      "name": "Diogo Jota"
+    },
+    {
+      "fee": 44600000.0,
+      "value_change": -6.2,
+      "age": 25,
+      "name": "Federico Chiesa"
+    },
+    {
+      "fee": 44500000.0,
+      "value_change": 28.0,
+      "age": 28,
+      "name": "Nicol\u00e1s Otamendi"
+    },
+    {
+      "fee": 44250000.0,
+      "value_change": 142.9,
+      "age": 21,
+      "name": "Enzo Fern\u00e1ndez"
+    },
+    {
+      "fee": 44000000.0,
+      "value_change": 0.0,
+      "age": 26,
+      "name": "Harvey Barnes"
+    },
+    {
+      "fee": 43500000.0,
+      "value_change": -42.9,
+      "age": 23,
+      "name": "Joelinton"
+    },
+    {
+      "fee": 43000000.0,
+      "value_change": 29.6,
+      "age": 22,
+      "name": "Achraf Hakimi"
+    },
+    {
+      "fee": 43000000.0,
+      "value_change": 266.7,
+      "age": 23,
+      "name": "Mohammed Kudus"
+    },
+    {
+      "fee": 42950000.0,
+      "value_change": 85.7,
+      "age": 25,
+      "name": "Lucas Paquet\u00e1"
+    },
+    {
+      "fee": 42500000.0,
+      "value_change": -11.1,
+      "age": 23,
+      "name": "Dayot Upamecano"
+    },
+    {
+      "fee": 42100000.0,
+      "value_change": 183.3,
+      "age": 24,
+      "name": "Bruno Guimar\u00e3es"
+    },
+    {
+      "fee": 42000000.0,
+      "value_change": -22.2,
+      "age": 30,
+      "name": "Leonardo Bonucci"
+    },
+    {
+      "fee": 42000000.0,
+      "value_change": -5.4,
+      "age": 27,
+      "name": "Henrikh Mkhitaryan"
+    },
+    {
+      "fee": 42000000.0,
+      "value_change": 400.0,
+      "age": 25,
+      "name": "Mohamed Salah"
+    },
+    {
+      "fee": 42000000.0,
+      "value_change": 0.0,
+      "age": 22,
+      "name": "Patrik Schick"
+    },
+    {
+      "fee": 42000000.0,
+      "value_change": 275.0,
+      "age": 21,
+      "name": "Davinson S\u00e1nchez"
+    },
+    {
+      "fee": 42000000.0,
+      "value_change": 55.6,
+      "age": 24,
+      "name": "Cody Gakpo"
+    },
+    {
+      "fee": 42000000.0,
+      "value_change": 165.6,
+      "age": 25,
+      "name": "Alexis Mac Allister"
+    },
+    {
+      "fee": 41500000.0,
+      "value_change": 81.8,
+      "age": 23,
+      "name": "Corentin Tolisso"
+    },
+    {
+      "fee": 41500000.0,
+      "value_change": -25.0,
+      "age": 22,
+      "name": "Malcom"
+    },
+    {
+      "fee": 41500000.0,
+      "value_change": 11.1,
+      "age": 22,
+      "name": "Vitinha"
+    },
+    {
+      "fee": 41000000.0,
+      "value_change": 200.0,
+      "age": 22,
+      "name": "Paulo Dybala"
+    },
+    {
+      "fee": 41000000.0,
+      "value_change": -11.1,
+      "age": 21,
+      "name": "Malcom"
+    },
+    {
+      "fee": 41000000.0,
+      "value_change": 31.6,
+      "age": 24,
+      "name": "Tammy Abraham"
+    },
+    {
+      "fee": 40500000.0,
+      "value_change": 75.0,
+      "age": 21,
+      "name": "Georginio Rutter"
+    },
+    {
+      "fee": 40400000.0,
+      "value_change": 175.0,
+      "age": 24,
+      "name": "Jo\u00e3o Cancelo"
+    },
+    {
+      "fee": 40000000.0,
+      "value_change": -20.0,
+      "age": 27,
+      "name": "C\u00e9dric Bakambu"
+    },
+    {
+      "fee": 40000000.0,
+      "value_change": 0.0,
+      "age": 29,
+      "name": "Wissam Ben Yedder"
+    },
+    {
+      "fee": 40000000.0,
+      "value_change": -31.4,
+      "age": 28,
+      "name": "Rapha\u00ebl Varane"
+    },
+    {
+      "fee": 40000000.0,
+      "value_change": 0.0,
+      "age": 25,
+      "name": "Leandro Paredes"
+    },
+    {
+      "fee": 40000000.0,
+      "value_change": 150.0,
+      "age": 23,
+      "name": "Tiemou\u00e9 Bakayoko"
+    },
+    {
+      "fee": 40000000.0,
+      "value_change": 66.7,
+      "age": 23,
+      "name": "Federico Bernardeschi"
+    },
+    {
+      "fee": 40000000.0,
+      "value_change": -5.0,
+      "age": 27,
+      "name": "Hakim Ziyech"
+    },
+    {
+      "fee": 40000000.0,
+      "value_change": 0.0,
+      "age": 22,
+      "name": "Gon\u00e7alo Guedes"
+    },
+    {
+      "fee": 40000000.0,
+      "value_change": 5733.3,
+      "age": 24,
+      "name": "Ederson"
+    },
+    {
+      "fee": 40000000.0,
+      "value_change": 23.5,
+      "age": 22,
+      "name": "Ibrahima Konat\u00e9"
+    },
+    {
+      "fee": 40000000.0,
+      "value_change": 566.7,
+      "age": 23,
+      "name": "Lo\u00efs Openda"
+    },
+    {
+      "fee": 40000000.0,
+      "value_change": 55.6,
+      "age": 22,
+      "name": "Jurri\u00ebn Timber"
+    },
+    {
+      "fee": 40000000.0,
+      "value_change": 200.0,
+      "age": 21,
+      "name": "Ryan Gravenberch"
+    },
+    {
+      "fee": 40000000.0,
+      "value_change": 177.8,
+      "age": 18,
+      "name": "F\u00e1bio Silva"
+    },
+    {
+      "fee": 40000000.0,
+      "value_change": 60.0,
+      "age": 24,
+      "name": "Pedro Porro"
+    },
+    {
+      "fee": 40000000.0,
+      "value_change": 712.5,
+      "age": 22,
+      "name": "Micky van de Ven"
+    },
+    {
+      "fee": 39870000.0,
+      "value_change": 42.9,
+      "age": 21,
+      "name": "Amadou Onana"
+    },
+    {
+      "fee": 39200000.0,
+      "value_change": 200.0,
+      "age": 21,
+      "name": "Richarlison"
+    },
+    {
+      "fee": 39000000.0,
+      "value_change": 78.6,
+      "age": 23,
+      "name": "Michy Batshuayi"
+    },
+    {
+      "fee": 39000000.0,
+      "value_change": -54.5,
+      "age": 23,
+      "name": "Donny van de Beek"
+    },
+    {
+      "fee": 39000000.0,
+      "value_change": 40.0,
+      "age": 20,
+      "name": "Dejan Kulusevski"
+    },
+    {
+      "fee": 38600000.0,
+      "value_change": -16.7,
+      "age": 24,
+      "name": "Gianluca Scamacca"
+    },
+    {
+      "fee": 38400000.0,
+      "value_change": 37.9,
+      "age": 25,
+      "name": "Emiliano Buend\u00eda"
+    },
+    {
+      "fee": 38400000.0,
+      "value_change": 120.0,
+      "age": 21,
+      "name": "Lucas Paquet\u00e1"
+    },
+    {
+      "fee": 38000000.0,
+      "value_change": 13.6,
+      "age": 21,
+      "name": "Mateo Kovacic"
+    },
+    {
+      "fee": 38000000.0,
+      "value_change": 75.0,
+      "age": 24,
+      "name": "Alex Oxlade-Chamberlain"
+    },
+    {
+      "fee": 38000000.0,
+      "value_change": 33.3,
+      "age": 25,
+      "name": "Felipe Anderson"
+    },
+    {
+      "fee": 38000000.0,
+      "value_change": 60.0,
+      "age": 28,
+      "name": "Ra\u00fal Jim\u00e9nez"
+    },
+    {
+      "fee": 38000000.0,
+      "value_change": 75.0,
+      "age": 22,
+      "name": "Eric Bailly"
+    },
+    {
+      "fee": 38000000.0,
+      "value_change": -31.4,
+      "age": 26,
+      "name": "Edson \u00c1lvarez"
+    },
+    {
+      "fee": 38000000.0,
+      "value_change": -55.0,
+      "age": 22,
+      "name": "Beno\u00eet Badiashile"
+    },
+    {
+      "fee": 38000000.0,
+      "value_change": -8.3,
+      "age": 20,
+      "name": "Nuno Mendes"
+    },
+    {
+      "fee": 37740000.0,
+      "value_change": -20.0,
+      "age": 24,
+      "name": "Mattia Caldara"
+    },
+    {
+      "fee": 37500000.0,
+      "value_change": -7.4,
+      "age": 21,
+      "name": "Charles De Ketelaere"
+    },
+    {
+      "fee": 37200000.0,
+      "value_change": 60.0,
+      "age": 21,
+      "name": "Tino Livramento"
+    },
+    {
+      "fee": 37000000.0,
+      "value_change": -25.0,
+      "age": 28,
+      "name": "Danilo"
+    },
+    {
+      "fee": 37000000.0,
+      "value_change": 22.2,
+      "age": 23,
+      "name": "Andr\u00e9 Gomes"
+    },
+    {
+      "fee": 37000000.0,
+      "value_change": -6.7,
+      "age": 22,
+      "name": "Thilo Kehrer"
+    },
+    {
+      "fee": 37000000.0,
+      "value_change": -7.9,
+      "age": 22,
+      "name": "Sven Botman"
+    },
+    {
+      "fee": 36800000.0,
+      "value_change": 2592.3,
+      "age": 19,
+      "name": "Josko Gvardiol"
+    },
+    {
+      "fee": 36400000.0,
+      "value_change": -6.7,
+      "age": 25,
+      "name": "Manuel Locatelli"
+    },
+    {
+      "fee": 36000000.0,
+      "value_change": -28.9,
+      "age": 28,
+      "name": "Konstantinos Manolas"
+    },
+    {
+      "fee": 36000000.0,
+      "value_change": 18.8,
+      "age": 22,
+      "name": "Geoffrey Kondogbia"
+    },
+    {
+      "fee": 36000000.0,
+      "value_change": 107.4,
+      "age": 20,
+      "name": "Dominik Szoboszlai"
+    },
+    {
+      "fee": 35900000.0,
+      "value_change": 300.0,
+      "age": 23,
+      "name": "Cl\u00e9ment Lenglet"
+    },
+    {
+      "fee": 35800000.0,
+      "value_change": 100.0,
+      "age": 25,
+      "name": "N'Golo Kant\u00e9"
+    },
+    {
+      "fee": 35700000.0,
+      "value_change": 966.7,
+      "age": 24,
+      "name": "N\u00e9lson Semedo"
+    },
+    {
+      "fee": 35600000.0,
+      "value_change": 0.0,
+      "age": 28,
+      "name": "Vitolo"
+    },
+    {
+      "fee": 35300000.0,
+      "value_change": 78.6,
+      "age": 24,
+      "name": "Fikayo Tomori"
+    },
+    {
+      "fee": 35000000.0,
+      "value_change": 5.3,
+      "age": 28,
+      "name": "Mats Hummels"
+    },
+    {
+      "fee": 35000000.0,
+      "value_change": -20.0,
+      "age": 31,
+      "name": "Leonardo Bonucci"
+    },
+    {
+      "fee": 35000000.0,
+      "value_change": 11.1,
+      "age": 27,
+      "name": "Moussa Sissoko"
+    },
+    {
+      "fee": 35000000.0,
+      "value_change": 7.1,
+      "age": 26,
+      "name": "Morgan Schneiderlin"
+    }
+  ],
+  "total_analyzed": 1956
+}

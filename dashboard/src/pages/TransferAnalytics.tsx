@@ -5,6 +5,7 @@ import LoadingSpinner from '../components/ui/LoadingSpinner';
 import PageTransition from '../components/ui/PageTransition';
 import TopTransfersTable from '../components/charts/TopTransfersTable';
 import { useData } from '../hooks/useData';
+import type { TransferAnalyticsData } from '../types/data';
 import { formatEur, formatNumber } from '../utils/formatters';
 import {
   BarChart,
@@ -28,40 +29,11 @@ interface Transfer {
   fee: number;
 }
 
-// Mock data for transfer analytics until real data is exported
-const MOCK_ROI_DATA = [
-  { category: 'Excellent (>50%)', count: 234, avg_roi: 87.3, color: chartColors[2] },
-  { category: 'Positive (0-50%)', count: 512, avg_roi: 22.1, color: chartColors[0] },
-  { category: 'Moderate Loss', count: 389, avg_roi: -28.4, color: chartColors[3] },
-  { category: 'Significant Loss', count: 198, avg_roi: -65.2, color: '#ff433d' },
-];
-
-const MOCK_NET_SPEND = [
-  { club: 'Chelsea', net_spend: -980000000 },
-  { club: 'Man City', net_spend: -850000000 },
-  { club: 'Man Utd', net_spend: -720000000 },
-  { club: 'PSG', net_spend: -650000000 },
-  { club: 'Barcelona', net_spend: -580000000 },
-  { club: 'Juventus', net_spend: -420000000 },
-  { club: 'Arsenal', net_spend: -380000000 },
-  { club: 'Real Madrid', net_spend: -320000000 },
-  { club: 'Benfica', net_spend: 450000000 },
-  { club: 'Dortmund', net_spend: 380000000 },
-  { club: 'Ajax', net_spend: 350000000 },
-  { club: 'Monaco', net_spend: 320000000 },
-];
-
-const MOCK_SCATTER = Array.from({ length: 60 }, (_, i) => ({
-  fee: Math.random() * 100000000 + 5000000,
-  value_change: (Math.random() - 0.4) * 80,
-  age: Math.floor(Math.random() * 15) + 18,
-  name: `Player ${i + 1}`,
-}));
-
 export default function TransferAnalytics() {
-  const { data: transfers, loading } = useData<Transfer[]>('top_transfers.json');
+  const { data: transfers, loading: loadingTransfers } = useData<Transfer[]>('top_transfers.json');
+  const { data: analytics, loading: loadingAnalytics } = useData<TransferAnalyticsData>('transfer_analytics.json');
 
-  if (loading) return <LoadingSpinner />;
+  if (loadingTransfers || loadingAnalytics) return <LoadingSpinner />;
 
   const totalFees = transfers?.reduce((s, t) => s + t.fee, 0) ?? 0;
   const maxFee = transfers ? Math.max(...transfers.map((t) => t.fee)) : 0;
@@ -84,7 +56,7 @@ export default function TransferAnalytics() {
           />
           <KPICard
             label="Transfers Analyzed"
-            value={1333}
+            value={analytics?.total_analyzed ?? 0}
             format={(v) => formatNumber(Math.round(v))}
           />
         </div>
@@ -97,7 +69,7 @@ export default function TransferAnalytics() {
               subtitle="Market value change 1 year after transfer"
             />
             <ResponsiveContainer width="100%" height={300}>
-              <BarChart data={MOCK_ROI_DATA} layout="vertical">
+              <BarChart data={analytics?.roi_distribution ?? []} layout="vertical">
                 <CartesianGrid strokeDasharray="3 3" stroke={colors.border.subtle} />
                 <XAxis
                   type="number"
@@ -131,7 +103,7 @@ export default function TransferAnalytics() {
               subtitle="Positive = net seller, Negative = net spender"
             />
             <ResponsiveContainer width="100%" height={300}>
-              <BarChart data={MOCK_NET_SPEND} layout="vertical">
+              <BarChart data={analytics?.net_spend ?? []} layout="vertical">
                 <CartesianGrid strokeDasharray="3 3" stroke={colors.border.subtle} />
                 <XAxis
                   type="number"
@@ -203,7 +175,7 @@ export default function TransferAnalytics() {
                   }}
                 />
                 <ReferenceLine y={0} stroke={colors.accent.amber} strokeDasharray="3 3" />
-                <Scatter data={MOCK_SCATTER} fill={chartColors[0]} fillOpacity={0.7} />
+                <Scatter data={analytics?.scatter ?? []} fill={chartColors[0]} fillOpacity={0.7} />
               </ScatterChart>
             </ResponsiveContainer>
           </div>

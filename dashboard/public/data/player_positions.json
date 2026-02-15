@@ -1,0 +1,100 @@
+{
+  "treemap": [
+    {
+      "name": "Centre-Back",
+      "position": "Defender",
+      "size": 9063230000.0
+    },
+    {
+      "name": "Centre-Forward",
+      "position": "Attack",
+      "size": 8042920000.0
+    },
+    {
+      "name": "Central Midfield",
+      "position": "Midfield",
+      "size": 6704305000.0
+    },
+    {
+      "name": "Attacking Midfield",
+      "position": "Midfield",
+      "size": 4899650000.0
+    },
+    {
+      "name": "Left Winger",
+      "position": "Attack",
+      "size": 4609625000.0
+    },
+    {
+      "name": "Defensive Midfield",
+      "position": "Midfield",
+      "size": 4497255000.0
+    },
+    {
+      "name": "Right Winger",
+      "position": "Attack",
+      "size": 4458700000.0
+    },
+    {
+      "name": "Left-Back",
+      "position": "Defender",
+      "size": 3288085000.0
+    },
+    {
+      "name": "Right-Back",
+      "position": "Defender",
+      "size": 3262800000.0
+    },
+    {
+      "name": "Goalkeeper",
+      "position": "Goalkeeper",
+      "size": 2633340000.0
+    },
+    {
+      "name": "Second Striker",
+      "position": "Attack",
+      "size": 393570000.0
+    },
+    {
+      "name": "Right Midfield",
+      "position": "Midfield",
+      "size": 326340000.0
+    },
+    {
+      "name": "Left Midfield",
+      "position": "Midfield",
+      "size": 310225000.0
+    }
+  ],
+  "value_distribution": [
+    {
+      "range": "<1M",
+      "count": 25194
+    },
+    {
+      "range": "1-5M",
+      "count": 4303
+    },
+    {
+      "range": "5-10M",
+      "count": 920
+    },
+    {
+      "range": "10-20M",
+      "count": 641
+    },
+    {
+      "range": "20-50M",
+      "count": 474
+    },
+    {
+      "range": "50-100M",
+      "count": 110
+    },
+    {
+      "range": ">100M",
+      "count": 18
+    }
+  ],
+  "total_players": 31660
+}
