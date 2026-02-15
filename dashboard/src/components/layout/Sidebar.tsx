@@ -27,7 +27,7 @@ function NavIcon({ icon }: { icon: string }) {
 
 export default function Sidebar() {
   return (
-    <aside className="fixed left-0 top-0 h-full w-56 bg-[#111118] border-r border-[#1e1e2e] flex flex-col z-30">
+    <aside className="h-screen sticky top-0 bg-[#111118] border-r border-[#1e1e2e] flex flex-col">
       {/* Logo */}
       <div className="px-4 py-5 border-b border-[#1e1e2e]">
         <div className="flex items-center gap-2">
