@@ -2,7 +2,7 @@
 
 > Financial analysis applied to European football transfer data — a portfolio showcase demonstrating SQL, Python, and interactive data visualization skills.
 
-**Live Demo:** [GitHub Pages](https://bvenn.github.io/first_project/) *(coming soon)*
+**Live Demo:** [https://bvn3141.github.io/first_project/](https://bvn3141.github.io/first_project/)
 
 ---
 
