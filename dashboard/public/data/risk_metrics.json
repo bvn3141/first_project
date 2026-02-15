@@ -1,69 +1,459 @@
 {
   "volatility_heatmap": [
-    {"league":"Premier League","season":"2018","volatility":5.2},
-    {"league":"Premier League","season":"2019","volatility":6.1},
-    {"league":"Premier League","season":"2020","volatility":9.8},
-    {"league":"Premier League","season":"2021","volatility":7.3},
-    {"league":"Premier League","season":"2022","volatility":5.8},
-    {"league":"Premier League","season":"2023","volatility":4.9},
-    {"league":"La Liga","season":"2018","volatility":4.8},
-    {"league":"La Liga","season":"2019","volatility":5.5},
-    {"league":"La Liga","season":"2020","volatility":8.9},
-    {"league":"La Liga","season":"2021","volatility":6.2},
-    {"league":"La Liga","season":"2022","volatility":5.1},
-    {"league":"La Liga","season":"2023","volatility":4.3},
-    {"league":"Bundesliga","season":"2018","volatility":4.5},
-    {"league":"Bundesliga","season":"2019","volatility":5.0},
-    {"league":"Bundesliga","season":"2020","volatility":7.8},
-    {"league":"Bundesliga","season":"2021","volatility":5.9},
-    {"league":"Bundesliga","season":"2022","volatility":4.8},
-    {"league":"Bundesliga","season":"2023","volatility":4.1},
-    {"league":"Serie A","season":"2018","volatility":5.0},
-    {"league":"Serie A","season":"2019","volatility":5.8},
-    {"league":"Serie A","season":"2020","volatility":8.5},
-    {"league":"Serie A","season":"2021","volatility":6.5},
-    {"league":"Serie A","season":"2022","volatility":5.3},
-    {"league":"Serie A","season":"2023","volatility":4.6},
-    {"league":"Ligue 1","season":"2018","volatility":5.5},
-    {"league":"Ligue 1","season":"2019","volatility":6.3},
-    {"league":"Ligue 1","season":"2020","volatility":10.2},
-    {"league":"Ligue 1","season":"2021","volatility":7.8},
-    {"league":"Ligue 1","season":"2022","volatility":6.0},
-    {"league":"Ligue 1","season":"2023","volatility":5.2}
+    {
+      "league": "La Liga",
+      "season": "2015",
+      "volatility": 63.35
+    },
+    {
+      "league": "Ligue 1",
+      "season": "2015",
+      "volatility": 135.72
+    },
+    {
+      "league": "Premier League",
+      "season": "2015",
+      "volatility": 68.8
+    },
+    {
+      "league": "Serie A",
+      "season": "2015",
+      "volatility": 227.48
+    },
+    {
+      "league": "Bundesliga",
+      "season": "2015",
+      "volatility": 203.02
+    },
+    {
+      "league": "La Liga",
+      "season": "2016",
+      "volatility": 237.33
+    },
+    {
+      "league": "Ligue 1",
+      "season": "2016",
+      "volatility": 169.51
+    },
+    {
+      "league": "Premier League",
+      "season": "2016",
+      "volatility": 337.21
+    },
+    {
+      "league": "Serie A",
+      "season": "2016",
+      "volatility": 211.89
+    },
+    {
+      "league": "Bundesliga",
+      "season": "2016",
+      "volatility": 141.5
+    },
+    {
+      "league": "La Liga",
+      "season": "2017",
+      "volatility": 469.17
+    },
+    {
+      "league": "Ligue 1",
+      "season": "2017",
+      "volatility": 177.58
+    },
+    {
+      "league": "Premier League",
+      "season": "2017",
+      "volatility": 228.51
+    },
+    {
+      "league": "Serie A",
+      "season": "2017",
+      "volatility": 288.06
+    },
+    {
+      "league": "Bundesliga",
+      "season": "2017",
+      "volatility": 217.31
+    },
+    {
+      "league": "La Liga",
+      "season": "2018",
+      "volatility": 408.5
+    },
+    {
+      "league": "Ligue 1",
+      "season": "2018",
+      "volatility": 152.63
+    },
+    {
+      "league": "Premier League",
+      "season": "2018",
+      "volatility": 385.18
+    },
+    {
+      "league": "Serie A",
+      "season": "2018",
+      "volatility": 608.03
+    },
+    {
+      "league": "Bundesliga",
+      "season": "2018",
+      "volatility": 374.25
+    },
+    {
+      "league": "La Liga",
+      "season": "2019",
+      "volatility": 173.19
+    },
+    {
+      "league": "Ligue 1",
+      "season": "2019",
+      "volatility": 135.33
+    },
+    {
+      "league": "Premier League",
+      "season": "2019",
+      "volatility": 306.3
+    },
+    {
+      "league": "Serie A",
+      "season": "2019",
+      "volatility": 280.43
+    },
+    {
+      "league": "Bundesliga",
+      "season": "2019",
+      "volatility": 469.62
+    },
+    {
+      "league": "La Liga",
+      "season": "2020",
+      "volatility": 830.37
+    },
+    {
+      "league": "Ligue 1",
+      "season": "2020",
+      "volatility": 193.82
+    },
+    {
+      "league": "Premier League",
+      "season": "2020",
+      "volatility": 177.07
+    },
+    {
+      "league": "Serie A",
+      "season": "2020",
+      "volatility": 493.82
+    },
+    {
+      "league": "Bundesliga",
+      "season": "2020",
+      "volatility": 270.61
+    },
+    {
+      "league": "La Liga",
+      "season": "2021",
+      "volatility": 209.45
+    },
+    {
+      "league": "Ligue 1",
+      "season": "2021",
+      "volatility": 171.57
+    },
+    {
+      "league": "Premier League",
+      "season": "2021",
+      "volatility": 263.06
+    },
+    {
+      "league": "Serie A",
+      "season": "2021",
+      "volatility": 196.02
+    },
+    {
+      "league": "Bundesliga",
+      "season": "2021",
+      "volatility": 206.71
+    },
+    {
+      "league": "La Liga",
+      "season": "2022",
+      "volatility": 189.06
+    },
+    {
+      "league": "Ligue 1",
+      "season": "2022",
+      "volatility": 282.95
+    },
+    {
+      "league": "Premier League",
+      "season": "2022",
+      "volatility": 155.36
+    },
+    {
+      "league": "Serie A",
+      "season": "2022",
+      "volatility": 555.65
+    },
+    {
+      "league": "Bundesliga",
+      "season": "2022",
+      "volatility": 280.74
+    },
+    {
+      "league": "La Liga",
+      "season": "2023",
+      "volatility": 491.58
+    },
+    {
+      "league": "Ligue 1",
+      "season": "2023",
+      "volatility": 327.13
+    },
+    {
+      "league": "Premier League",
+      "season": "2023",
+      "volatility": 386.17
+    },
+    {
+      "league": "Serie A",
+      "season": "2023",
+      "volatility": 1480.19
+    },
+    {
+      "league": "Bundesliga",
+      "season": "2023",
+      "volatility": 128.02
+    },
+    {
+      "league": "La Liga",
+      "season": "2024",
+      "volatility": 215.49
+    },
+    {
+      "league": "Ligue 1",
+      "season": "2024",
+      "volatility": 2882.96
+    },
+    {
+      "league": "Premier League",
+      "season": "2024",
+      "volatility": 1146.49
+    },
+    {
+      "league": "Serie A",
+      "season": "2024",
+      "volatility": 389.87
+    },
+    {
+      "league": "Bundesliga",
+      "season": "2024",
+      "volatility": 367.84
+    },
+    {
+      "league": "La Liga",
+      "season": "2025",
+      "volatility": 300.93
+    },
+    {
+      "league": "Ligue 1",
+      "season": "2025",
+      "volatility": 124.99
+    },
+    {
+      "league": "Premier League",
+      "season": "2025",
+      "volatility": 1358.83
+    },
+    {
+      "league": "Serie A",
+      "season": "2025",
+      "volatility": 468.13
+    },
+    {
+      "league": "Bundesliga",
+      "season": "2025",
+      "volatility": 323.57
+    }
   ],
   "drawdown_by_position": [
-    {"position":"Attack","avg_max_drawdown":-42.3,"worst_drawdown":-89.1,"player_count":8500},
-    {"position":"Midfield","avg_max_drawdown":-38.7,"worst_drawdown":-85.4,"player_count":9200},
-    {"position":"Defender","avg_max_drawdown":-35.2,"worst_drawdown":-82.0,"player_count":8800},
-    {"position":"Goalkeeper","avg_max_drawdown":-30.1,"worst_drawdown":-75.5,"player_count":3500}
+    {
+      "position": "Attack",
+      "avg_max_drawdown": -57.4,
+      "worst_drawdown": -100.0,
+      "player_count": 8754
+    },
+    {
+      "position": "Defender",
+      "avg_max_drawdown": -56.6,
+      "worst_drawdown": -99.9,
+      "player_count": 10121
+    },
+    {
+      "position": "Midfield",
+      "avg_max_drawdown": -56.3,
+      "worst_drawdown": -99.9,
+      "player_count": 9186
+    },
+    {
+      "position": "Goalkeeper",
+      "avg_max_drawdown": -51.3,
+      "worst_drawdown": -99.9,
+      "player_count": 3497
+    }
   ],
   "depreciation_rates": [
-    {"position":"Attack","age_bracket":"U23","avg_change_pct":18.5,"depreciation_rate":22.0},
-    {"position":"Attack","age_bracket":"23-26","avg_change_pct":8.2,"depreciation_rate":35.0},
-    {"position":"Attack","age_bracket":"27-29","avg_change_pct":-5.8,"depreciation_rate":58.0},
-    {"position":"Attack","age_bracket":"30-32","avg_change_pct":-18.3,"depreciation_rate":75.0},
-    {"position":"Attack","age_bracket":"33+","avg_change_pct":-28.5,"depreciation_rate":85.0},
-    {"position":"Midfield","age_bracket":"U23","avg_change_pct":16.2,"depreciation_rate":24.0},
-    {"position":"Midfield","age_bracket":"23-26","avg_change_pct":7.5,"depreciation_rate":33.0},
-    {"position":"Midfield","age_bracket":"27-29","avg_change_pct":-4.2,"depreciation_rate":52.0},
-    {"position":"Midfield","age_bracket":"30-32","avg_change_pct":-15.8,"depreciation_rate":72.0},
-    {"position":"Midfield","age_bracket":"33+","avg_change_pct":-25.1,"depreciation_rate":82.0},
-    {"position":"Defender","age_bracket":"U23","avg_change_pct":14.8,"depreciation_rate":26.0},
-    {"position":"Defender","age_bracket":"23-26","avg_change_pct":6.8,"depreciation_rate":30.0},
-    {"position":"Defender","age_bracket":"27-29","avg_change_pct":-2.5,"depreciation_rate":45.0},
-    {"position":"Defender","age_bracket":"30-32","avg_change_pct":-12.5,"depreciation_rate":65.0},
-    {"position":"Defender","age_bracket":"33+","avg_change_pct":-22.0,"depreciation_rate":78.0},
-    {"position":"Goalkeeper","age_bracket":"U23","avg_change_pct":12.0,"depreciation_rate":28.0},
-    {"position":"Goalkeeper","age_bracket":"23-26","avg_change_pct":8.5,"depreciation_rate":25.0},
-    {"position":"Goalkeeper","age_bracket":"27-29","avg_change_pct":3.2,"depreciation_rate":35.0},
-    {"position":"Goalkeeper","age_bracket":"30-32","avg_change_pct":-5.5,"depreciation_rate":48.0},
-    {"position":"Goalkeeper","age_bracket":"33+","avg_change_pct":-15.0,"depreciation_rate":65.0}
+    {
+      "position": "Attack",
+      "age_bracket": "21-24",
+      "avg_change_pct": 13.47,
+      "depreciation_rate": -24.86
+    },
+    {
+      "position": "Attack",
+      "age_bracket": "25-27",
+      "avg_change_pct": 4.85,
+      "depreciation_rate": -23.5
+    },
+    {
+      "position": "Attack",
+      "age_bracket": "28-30",
+      "avg_change_pct": -4.73,
+      "depreciation_rate": -24.32
+    },
+    {
+      "position": "Attack",
+      "age_bracket": "31+",
+      "avg_change_pct": -15.4,
+      "depreciation_rate": -28.61
+    },
+    {
+      "position": "Attack",
+      "age_bracket": "U21",
+      "avg_change_pct": 22.96,
+      "depreciation_rate": -37.67
+    },
+    {
+      "position": "Defender",
+      "age_bracket": "21-24",
+      "avg_change_pct": 15.71,
+      "depreciation_rate": -25.74
+    },
+    {
+      "position": "Defender",
+      "age_bracket": "25-27",
+      "avg_change_pct": 6.0,
+      "depreciation_rate": -23.25
+    },
+    {
+      "position": "Defender",
+      "age_bracket": "28-30",
+      "avg_change_pct": -3.48,
+      "depreciation_rate": -23.74
+    },
+    {
+      "position": "Defender",
+      "age_bracket": "31+",
+      "avg_change_pct": -15.25,
+      "depreciation_rate": -28.85
+    },
+    {
+      "position": "Defender",
+      "age_bracket": "U21",
+      "avg_change_pct": 21.72,
+      "depreciation_rate": -44.46
+    },
+    {
+      "position": "Goalkeeper",
+      "age_bracket": "21-24",
+      "avg_change_pct": 13.36,
+      "depreciation_rate": -29.77
+    },
+    {
+      "position": "Goalkeeper",
+      "age_bracket": "25-27",
+      "avg_change_pct": 8.53,
+      "depreciation_rate": -27.21
+    },
+    {
+      "position": "Goalkeeper",
+      "age_bracket": "28-30",
+      "avg_change_pct": 1.49,
+      "depreciation_rate": -25.9
+    },
+    {
+      "position": "Goalkeeper",
+      "age_bracket": "31+",
+      "avg_change_pct": -10.43,
+      "depreciation_rate": -30.51
+    },
+    {
+      "position": "Goalkeeper",
+      "age_bracket": "U21",
+      "avg_change_pct": 13.73,
+      "depreciation_rate": -49.29
+    },
+    {
+      "position": "Midfield",
+      "age_bracket": "21-24",
+      "avg_change_pct": 13.84,
+      "depreciation_rate": -24.72
+    },
+    {
+      "position": "Midfield",
+      "age_bracket": "25-27",
+      "avg_change_pct": 4.6,
+      "depreciation_rate": -22.84
+    },
+    {
+      "position": "Midfield",
+      "age_bracket": "28-30",
+      "avg_change_pct": -3.84,
+      "depreciation_rate": -23.51
+    },
+    {
+      "position": "Midfield",
+      "age_bracket": "31+",
+      "avg_change_pct": -15.96,
+      "depreciation_rate": -28.69
+    },
+    {
+      "position": "Midfield",
+      "age_bracket": "U21",
+      "avg_change_pct": 22.69,
+      "depreciation_rate": -39.76
+    }
   ],
   "sharpe_ratios": [
-    {"league":"Premier League","sharpe_ratio":1.23,"avg_return":2.1,"volatility":1.7},
-    {"league":"Bundesliga","sharpe_ratio":1.15,"avg_return":1.8,"volatility":1.6},
-    {"league":"La Liga","sharpe_ratio":0.98,"avg_return":1.5,"volatility":1.5},
-    {"league":"Serie A","sharpe_ratio":0.85,"avg_return":1.3,"volatility":1.5},
-    {"league":"Ligue 1","sharpe_ratio":0.72,"avg_return":1.2,"volatility":1.7}
+    {
+      "league": "Bundesliga",
+      "sharpe_ratio": 0.428,
+      "avg_return": 1503.49,
+      "volatility": 1014.28
+    },
+    {
+      "league": "Premier League",
+      "sharpe_ratio": 0.345,
+      "avg_return": 2489.06,
+      "volatility": 2084.06
+    },
+    {
+      "league": "La Liga",
+      "sharpe_ratio": 0.338,
+      "avg_return": 1618.63,
+      "volatility": 1383.31
+    },
+    {
+      "league": "Serie A",
+      "sharpe_ratio": 0.325,
+      "avg_return": 2347.75,
+      "volatility": 2088.12
+    },
+    {
+      "league": "Ligue 1",
+      "sharpe_ratio": 0.192,
+      "avg_return": 2065.16,
+      "volatility": 3107.27
+    }
   ]
 }

@@ -1,24 +1,156 @@
 [
-  {"age":17,"Attack":1200000,"Midfield":800000,"Defender":600000,"Goalkeeper":350000},
-  {"age":18,"Attack":2500000,"Midfield":1700000,"Defender":1100000,"Goalkeeper":600000},
-  {"age":19,"Attack":4500000,"Midfield":3200000,"Defender":2100000,"Goalkeeper":1000000},
-  {"age":20,"Attack":7200000,"Midfield":5500000,"Defender":3800000,"Goalkeeper":1600000},
-  {"age":21,"Attack":10500000,"Midfield":8200000,"Defender":5800000,"Goalkeeper":2300000},
-  {"age":22,"Attack":14000000,"Midfield":11000000,"Defender":8000000,"Goalkeeper":3100000},
-  {"age":23,"Attack":17500000,"Midfield":13500000,"Defender":10200000,"Goalkeeper":4000000},
-  {"age":24,"Attack":20000000,"Midfield":15500000,"Defender":12000000,"Goalkeeper":4800000},
-  {"age":25,"Attack":22000000,"Midfield":17000000,"Defender":13500000,"Goalkeeper":5500000},
-  {"age":26,"Attack":23000000,"Midfield":17500000,"Defender":14000000,"Goalkeeper":6000000},
-  {"age":27,"Attack":22500000,"Midfield":17000000,"Defender":14200000,"Goalkeeper":6300000},
-  {"age":28,"Attack":20000000,"Midfield":15500000,"Defender":13500000,"Goalkeeper":6400000},
-  {"age":29,"Attack":16500000,"Midfield":13000000,"Defender":12000000,"Goalkeeper":6200000},
-  {"age":30,"Attack":12500000,"Midfield":10000000,"Defender":10000000,"Goalkeeper":5800000},
-  {"age":31,"Attack":9000000,"Midfield":7500000,"Defender":8000000,"Goalkeeper":5200000},
-  {"age":32,"Attack":6500000,"Midfield":5500000,"Defender":6000000,"Goalkeeper":4500000},
-  {"age":33,"Attack":4500000,"Midfield":3800000,"Defender":4200000,"Goalkeeper":3800000},
-  {"age":34,"Attack":3000000,"Midfield":2500000,"Defender":2800000,"Goalkeeper":3000000},
-  {"age":35,"Attack":2000000,"Midfield":1600000,"Defender":1800000,"Goalkeeper":2200000},
-  {"age":36,"Attack":1200000,"Midfield":1000000,"Defender":1100000,"Goalkeeper":1600000},
-  {"age":37,"Attack":700000,"Midfield":600000,"Defender":650000,"Goalkeeper":1100000},
-  {"age":38,"Attack":400000,"Midfield":350000,"Defender":380000,"Goalkeeper":700000}
+  {
+    "age": 17,
+    "Attack": 0.15,
+    "Defender": 0.1,
+    "Goalkeeper": 0.05,
+    "Midfield": 0.1
+  },
+  {
+    "age": 18,
+    "Attack": 0.2,
+    "Defender": 0.125,
+    "Goalkeeper": 0.075,
+    "Midfield": 0.15
+  },
+  {
+    "age": 19,
+    "Attack": 0.25,
+    "Defender": 0.15,
+    "Goalkeeper": 0.1,
+    "Midfield": 0.2
+  },
+  {
+    "age": 20,
+    "Attack": 0.3,
+    "Defender": 0.2,
+    "Goalkeeper": 0.1,
+    "Midfield": 0.25
+  },
+  {
+    "age": 21,
+    "Attack": 0.4,
+    "Defender": 0.3,
+    "Goalkeeper": 0.15,
+    "Midfield": 0.35
+  },
+  {
+    "age": 22,
+    "Attack": 0.45,
+    "Defender": 0.4,
+    "Goalkeeper": 0.2,
+    "Midfield": 0.45
+  },
+  {
+    "age": 23,
+    "Attack": 0.5,
+    "Defender": 0.5,
+    "Goalkeeper": 0.225,
+    "Midfield": 0.5
+  },
+  {
+    "age": 24,
+    "Attack": 0.6,
+    "Defender": 0.5,
+    "Goalkeeper": 0.3,
+    "Midfield": 0.6
+  },
+  {
+    "age": 25,
+    "Attack": 0.7,
+    "Defender": 0.6,
+    "Goalkeeper": 0.3,
+    "Midfield": 0.7
+  },
+  {
+    "age": 26,
+    "Attack": 0.75,
+    "Defender": 0.65,
+    "Goalkeeper": 0.35,
+    "Midfield": 0.7
+  },
+  {
+    "age": 27,
+    "Attack": 0.8,
+    "Defender": 0.7,
+    "Goalkeeper": 0.4,
+    "Midfield": 0.75
+  },
+  {
+    "age": 28,
+    "Attack": 0.75,
+    "Defender": 0.7,
+    "Goalkeeper": 0.45,
+    "Midfield": 0.75
+  },
+  {
+    "age": 29,
+    "Attack": 0.75,
+    "Defender": 0.7,
+    "Goalkeeper": 0.5,
+    "Midfield": 0.75
+  },
+  {
+    "age": 30,
+    "Attack": 0.7,
+    "Defender": 0.6,
+    "Goalkeeper": 0.5,
+    "Midfield": 0.7
+  },
+  {
+    "age": 31,
+    "Attack": 0.5,
+    "Defender": 0.5,
+    "Goalkeeper": 0.45,
+    "Midfield": 0.6
+  },
+  {
+    "age": 32,
+    "Attack": 0.488,
+    "Defender": 0.4,
+    "Goalkeeper": 0.4,
+    "Midfield": 0.5
+  },
+  {
+    "age": 33,
+    "Attack": 0.4,
+    "Defender": 0.35,
+    "Goalkeeper": 0.325,
+    "Midfield": 0.4
+  },
+  {
+    "age": 34,
+    "Attack": 0.3,
+    "Defender": 0.3,
+    "Goalkeeper": 0.3,
+    "Midfield": 0.3
+  },
+  {
+    "age": 35,
+    "Attack": 0.25,
+    "Defender": 0.2,
+    "Goalkeeper": 0.25,
+    "Midfield": 0.25
+  },
+  {
+    "age": 36,
+    "Attack": 0.2,
+    "Defender": 0.2,
+    "Goalkeeper": 0.25,
+    "Midfield": 0.2
+  },
+  {
+    "age": 37,
+    "Attack": 0.2,
+    "Defender": 0.15,
+    "Goalkeeper": 0.2,
+    "Midfield": 0.1
+  },
+  {
+    "age": 38,
+    "Attack": 0.175,
+    "Defender": 0.1,
+    "Goalkeeper": 0.15,
+    "Midfield": 0.1
+  }
 ]

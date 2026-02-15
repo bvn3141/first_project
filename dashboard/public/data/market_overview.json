@@ -1,62 +1,632 @@
 [
-  {"year":2012,"league_name":"Premier League","league_id":"GB1","total_market_value":4523000000,"player_count":520,"avg_player_value":8698077,"yoy_growth_pct":null},
-  {"year":2012,"league_name":"La Liga","league_id":"ES1","total_market_value":3890000000,"player_count":480,"avg_player_value":8104167,"yoy_growth_pct":null},
-  {"year":2012,"league_name":"Bundesliga","league_id":"L1","total_market_value":2850000000,"player_count":460,"avg_player_value":6195652,"yoy_growth_pct":null},
-  {"year":2012,"league_name":"Serie A","league_id":"IT1","total_market_value":3120000000,"player_count":500,"avg_player_value":6240000,"yoy_growth_pct":null},
-  {"year":2012,"league_name":"Ligue 1","league_id":"FR1","total_market_value":1980000000,"player_count":440,"avg_player_value":4500000,"yoy_growth_pct":null},
-  {"year":2013,"league_name":"Premier League","league_id":"GB1","total_market_value":5100000000,"player_count":530,"avg_player_value":9622642,"yoy_growth_pct":12.8},
-  {"year":2013,"league_name":"La Liga","league_id":"ES1","total_market_value":4200000000,"player_count":490,"avg_player_value":8571429,"yoy_growth_pct":7.97},
-  {"year":2013,"league_name":"Bundesliga","league_id":"L1","total_market_value":3100000000,"player_count":465,"avg_player_value":6666667,"yoy_growth_pct":8.77},
-  {"year":2013,"league_name":"Serie A","league_id":"IT1","total_market_value":3300000000,"player_count":510,"avg_player_value":6470588,"yoy_growth_pct":5.77},
-  {"year":2013,"league_name":"Ligue 1","league_id":"FR1","total_market_value":2200000000,"player_count":445,"avg_player_value":4943820,"yoy_growth_pct":11.11},
-  {"year":2014,"league_name":"Premier League","league_id":"GB1","total_market_value":5800000000,"player_count":535,"avg_player_value":10841121,"yoy_growth_pct":13.73},
-  {"year":2014,"league_name":"La Liga","league_id":"ES1","total_market_value":4600000000,"player_count":495,"avg_player_value":9292929,"yoy_growth_pct":9.52},
-  {"year":2014,"league_name":"Bundesliga","league_id":"L1","total_market_value":3400000000,"player_count":470,"avg_player_value":7234043,"yoy_growth_pct":9.68},
-  {"year":2014,"league_name":"Serie A","league_id":"IT1","total_market_value":3500000000,"player_count":515,"avg_player_value":6796117,"yoy_growth_pct":6.06},
-  {"year":2014,"league_name":"Ligue 1","league_id":"FR1","total_market_value":2450000000,"player_count":450,"avg_player_value":5444444,"yoy_growth_pct":11.36},
-  {"year":2015,"league_name":"Premier League","league_id":"GB1","total_market_value":6500000000,"player_count":540,"avg_player_value":12037037,"yoy_growth_pct":12.07},
-  {"year":2015,"league_name":"La Liga","league_id":"ES1","total_market_value":5000000000,"player_count":498,"avg_player_value":10040161,"yoy_growth_pct":8.7},
-  {"year":2015,"league_name":"Bundesliga","league_id":"L1","total_market_value":3700000000,"player_count":473,"avg_player_value":7822411,"yoy_growth_pct":8.82},
-  {"year":2015,"league_name":"Serie A","league_id":"IT1","total_market_value":3800000000,"player_count":520,"avg_player_value":7307692,"yoy_growth_pct":8.57},
-  {"year":2015,"league_name":"Ligue 1","league_id":"FR1","total_market_value":2700000000,"player_count":455,"avg_player_value":5934066,"yoy_growth_pct":10.2},
-  {"year":2016,"league_name":"Premier League","league_id":"GB1","total_market_value":7200000000,"player_count":545,"avg_player_value":13211009,"yoy_growth_pct":10.77},
-  {"year":2016,"league_name":"La Liga","league_id":"ES1","total_market_value":5400000000,"player_count":500,"avg_player_value":10800000,"yoy_growth_pct":8.0},
-  {"year":2016,"league_name":"Bundesliga","league_id":"L1","total_market_value":4000000000,"player_count":475,"avg_player_value":8421053,"yoy_growth_pct":8.11},
-  {"year":2016,"league_name":"Serie A","league_id":"IT1","total_market_value":4100000000,"player_count":525,"avg_player_value":7809524,"yoy_growth_pct":7.89},
-  {"year":2016,"league_name":"Ligue 1","league_id":"FR1","total_market_value":3000000000,"player_count":460,"avg_player_value":6521739,"yoy_growth_pct":11.11},
-  {"year":2017,"league_name":"Premier League","league_id":"GB1","total_market_value":8200000000,"player_count":548,"avg_player_value":14963504,"yoy_growth_pct":13.89},
-  {"year":2017,"league_name":"La Liga","league_id":"ES1","total_market_value":5900000000,"player_count":505,"avg_player_value":11683168,"yoy_growth_pct":9.26},
-  {"year":2017,"league_name":"Bundesliga","league_id":"L1","total_market_value":4400000000,"player_count":480,"avg_player_value":9166667,"yoy_growth_pct":10.0},
-  {"year":2017,"league_name":"Serie A","league_id":"IT1","total_market_value":4500000000,"player_count":530,"avg_player_value":8490566,"yoy_growth_pct":9.76},
-  {"year":2017,"league_name":"Ligue 1","league_id":"FR1","total_market_value":3400000000,"player_count":462,"avg_player_value":7359307,"yoy_growth_pct":13.33},
-  {"year":2018,"league_name":"Premier League","league_id":"GB1","total_market_value":9100000000,"player_count":550,"avg_player_value":16545455,"yoy_growth_pct":10.98},
-  {"year":2018,"league_name":"La Liga","league_id":"ES1","total_market_value":6300000000,"player_count":510,"avg_player_value":12352941,"yoy_growth_pct":6.78},
-  {"year":2018,"league_name":"Bundesliga","league_id":"L1","total_market_value":4700000000,"player_count":482,"avg_player_value":9751037,"yoy_growth_pct":6.82},
-  {"year":2018,"league_name":"Serie A","league_id":"IT1","total_market_value":5000000000,"player_count":535,"avg_player_value":9345794,"yoy_growth_pct":11.11},
-  {"year":2018,"league_name":"Ligue 1","league_id":"FR1","total_market_value":3800000000,"player_count":465,"avg_player_value":8172043,"yoy_growth_pct":11.76},
-  {"year":2019,"league_name":"Premier League","league_id":"GB1","total_market_value":9800000000,"player_count":552,"avg_player_value":17753623,"yoy_growth_pct":7.69},
-  {"year":2019,"league_name":"La Liga","league_id":"ES1","total_market_value":6600000000,"player_count":512,"avg_player_value":12890625,"yoy_growth_pct":4.76},
-  {"year":2019,"league_name":"Bundesliga","league_id":"L1","total_market_value":5000000000,"player_count":485,"avg_player_value":10309278,"yoy_growth_pct":6.38},
-  {"year":2019,"league_name":"Serie A","league_id":"IT1","total_market_value":5400000000,"player_count":538,"avg_player_value":10037175,"yoy_growth_pct":8.0},
-  {"year":2019,"league_name":"Ligue 1","league_id":"FR1","total_market_value":4100000000,"player_count":468,"avg_player_value":8760684,"yoy_growth_pct":7.89},
-  {"year":2020,"league_name":"Premier League","league_id":"GB1","total_market_value":9200000000,"player_count":555,"avg_player_value":16576577,"yoy_growth_pct":-6.12},
-  {"year":2020,"league_name":"La Liga","league_id":"ES1","total_market_value":6000000000,"player_count":515,"avg_player_value":11650485,"yoy_growth_pct":-9.09},
-  {"year":2020,"league_name":"Bundesliga","league_id":"L1","total_market_value":4700000000,"player_count":488,"avg_player_value":9631148,"yoy_growth_pct":-6.0},
-  {"year":2020,"league_name":"Serie A","league_id":"IT1","total_market_value":5000000000,"player_count":540,"avg_player_value":9259259,"yoy_growth_pct":-7.41},
-  {"year":2020,"league_name":"Ligue 1","league_id":"FR1","total_market_value":3700000000,"player_count":470,"avg_player_value":7872340,"yoy_growth_pct":-9.76},
-  {"year":2021,"league_name":"Premier League","league_id":"GB1","total_market_value":10200000000,"player_count":558,"avg_player_value":18279570,"yoy_growth_pct":10.87},
-  {"year":2021,"league_name":"La Liga","league_id":"ES1","total_market_value":6400000000,"player_count":518,"avg_player_value":12355212,"yoy_growth_pct":6.67},
-  {"year":2021,"league_name":"Bundesliga","league_id":"L1","total_market_value":5100000000,"player_count":490,"avg_player_value":10408163,"yoy_growth_pct":8.51},
-  {"year":2021,"league_name":"Serie A","league_id":"IT1","total_market_value":5300000000,"player_count":542,"avg_player_value":9778598,"yoy_growth_pct":6.0},
-  {"year":2021,"league_name":"Ligue 1","league_id":"FR1","total_market_value":4000000000,"player_count":472,"avg_player_value":8474576,"yoy_growth_pct":8.11},
-  {"year":2022,"league_name":"Premier League","league_id":"GB1","total_market_value":11500000000,"player_count":560,"avg_player_value":20535714,"yoy_growth_pct":12.75},
-  {"year":2022,"league_name":"La Liga","league_id":"ES1","total_market_value":6800000000,"player_count":520,"avg_player_value":13076923,"yoy_growth_pct":6.25},
-  {"year":2022,"league_name":"Bundesliga","league_id":"L1","total_market_value":5400000000,"player_count":492,"avg_player_value":10975610,"yoy_growth_pct":5.88},
-  {"year":2022,"league_name":"Serie A","league_id":"IT1","total_market_value":5600000000,"player_count":545,"avg_player_value":10275229,"yoy_growth_pct":5.66},
-  {"year":2022,"league_name":"Ligue 1","league_id":"FR1","total_market_value":4400000000,"player_count":475,"avg_player_value":9263158,"yoy_growth_pct":10.0},
-  {"year":2023,"league_name":"Premier League","league_id":"GB1","total_market_value":12100000000,"player_count":562,"avg_player_value":21530249,"yoy_growth_pct":5.22},
-  {"year":2023,"league_name":"La Liga","league_id":"ES1","total_market_value":7000000000,"player_count":522,"avg_player_value":13409962,"yoy_growth_pct":2.94},
-  {"year":2023,"league_name":"Bundesliga","league_id":"L1","total_market_value":5600000000,"player_count":494,"avg_player_value":11336032,"yoy_growth_pct":3.7},
-  {"year":2023,"league_name":"Serie A","league_id":"IT1","total_market_value":5800000000,"player_count":548,"avg_player_value":10583942,"yoy_growth_pct":3.57},
-  {"year":2023,"league_name":"Ligue 1","league_id":"FR1","total_market_value":4600000000,"player_count":478,"avg_player_value":9623431,"yoy_growth_pct":4.55}
+  {
+    "year": 2012,
+    "league_id": "ES1",
+    "total_market_value": 249225000,
+    "player_count": 60,
+    "avg_player_value": 4085656.0,
+    "yoy_growth_pct": NaN,
+    "league_name": "La Liga"
+  },
+  {
+    "year": 2012,
+    "league_id": "FR1",
+    "total_market_value": 193725000,
+    "player_count": 61,
+    "avg_player_value": 3175820.0,
+    "yoy_growth_pct": NaN,
+    "league_name": "Ligue 1"
+  },
+  {
+    "year": 2012,
+    "league_id": "GB1",
+    "total_market_value": 207225000,
+    "player_count": 57,
+    "avg_player_value": 3635526.0,
+    "yoy_growth_pct": NaN,
+    "league_name": "Premier League"
+  },
+  {
+    "year": 2012,
+    "league_id": "IT1",
+    "total_market_value": 1566675000,
+    "player_count": 550,
+    "avg_player_value": 2807661.0,
+    "yoy_growth_pct": NaN,
+    "league_name": "Serie A"
+  },
+  {
+    "year": 2012,
+    "league_id": "L1",
+    "total_market_value": 1075650000,
+    "player_count": 444,
+    "avg_player_value": 2411771.0,
+    "yoy_growth_pct": NaN,
+    "league_name": "Bundesliga"
+  },
+  {
+    "year": 2013,
+    "league_id": "ES1",
+    "total_market_value": 2079825000,
+    "player_count": 442,
+    "avg_player_value": 4621833.0,
+    "yoy_growth_pct": 734.5,
+    "league_name": "La Liga"
+  },
+  {
+    "year": 2013,
+    "league_id": "FR1",
+    "total_market_value": 1580775000,
+    "player_count": 608,
+    "avg_player_value": 2513156.0,
+    "yoy_growth_pct": 716.0,
+    "league_name": "Ligue 1"
+  },
+  {
+    "year": 2013,
+    "league_id": "GB1",
+    "total_market_value": 2141575000,
+    "player_count": 393,
+    "avg_player_value": 5421709.0,
+    "yoy_growth_pct": 933.5,
+    "league_name": "Premier League"
+  },
+  {
+    "year": 2013,
+    "league_id": "IT1",
+    "total_market_value": 1963375000,
+    "player_count": 511,
+    "avg_player_value": 3827242.0,
+    "yoy_growth_pct": 25.3,
+    "league_name": "Serie A"
+  },
+  {
+    "year": 2013,
+    "league_id": "L1",
+    "total_market_value": 1430850000,
+    "player_count": 551,
+    "avg_player_value": 2582762.0,
+    "yoy_growth_pct": 33.0,
+    "league_name": "Bundesliga"
+  },
+  {
+    "year": 2014,
+    "league_id": "ES1",
+    "total_market_value": 1954500000,
+    "player_count": 402,
+    "avg_player_value": 4802211.0,
+    "yoy_growth_pct": -6.0,
+    "league_name": "La Liga"
+  },
+  {
+    "year": 2014,
+    "league_id": "FR1",
+    "total_market_value": 1441625000,
+    "player_count": 570,
+    "avg_player_value": 2481282.0,
+    "yoy_growth_pct": -8.8,
+    "league_name": "Ligue 1"
+  },
+  {
+    "year": 2014,
+    "league_id": "GB1",
+    "total_market_value": 2335300000,
+    "player_count": 569,
+    "avg_player_value": 4033333.0,
+    "yoy_growth_pct": 9.0,
+    "league_name": "Premier League"
+  },
+  {
+    "year": 2014,
+    "league_id": "IT1",
+    "total_market_value": 2271575000,
+    "player_count": 757,
+    "avg_player_value": 2942455.0,
+    "yoy_growth_pct": 15.7,
+    "league_name": "Serie A"
+  },
+  {
+    "year": 2014,
+    "league_id": "L1",
+    "total_market_value": 288725000,
+    "player_count": 241,
+    "avg_player_value": 1183299.0,
+    "yoy_growth_pct": -79.8,
+    "league_name": "Bundesliga"
+  },
+  {
+    "year": 2015,
+    "league_id": "ES1",
+    "total_market_value": 2448050000,
+    "player_count": 640,
+    "avg_player_value": 3813162.0,
+    "yoy_growth_pct": 25.3,
+    "league_name": "La Liga"
+  },
+  {
+    "year": 2015,
+    "league_id": "FR1",
+    "total_market_value": 1157475000,
+    "player_count": 444,
+    "avg_player_value": 2601067.0,
+    "yoy_growth_pct": -19.7,
+    "league_name": "Ligue 1"
+  },
+  {
+    "year": 2015,
+    "league_id": "GB1",
+    "total_market_value": 1067850000,
+    "player_count": 114,
+    "avg_player_value": 9367105.0,
+    "yoy_growth_pct": -54.3,
+    "league_name": "Premier League"
+  },
+  {
+    "year": 2015,
+    "league_id": "IT1",
+    "total_market_value": 2139525000,
+    "player_count": 672,
+    "avg_player_value": 3164978.0,
+    "yoy_growth_pct": -5.8,
+    "league_name": "Serie A"
+  },
+  {
+    "year": 2015,
+    "league_id": "L1",
+    "total_market_value": 801625000,
+    "player_count": 321,
+    "avg_player_value": 2497274.0,
+    "yoy_growth_pct": 177.6,
+    "league_name": "Bundesliga"
+  },
+  {
+    "year": 2016,
+    "league_id": "ES1",
+    "total_market_value": 396775000,
+    "player_count": 34,
+    "avg_player_value": 11669853.0,
+    "yoy_growth_pct": -83.8,
+    "league_name": "La Liga"
+  },
+  {
+    "year": 2016,
+    "league_id": "FR1",
+    "total_market_value": 304400000,
+    "player_count": 60,
+    "avg_player_value": 4831746.0,
+    "yoy_growth_pct": -73.7,
+    "league_name": "Ligue 1"
+  },
+  {
+    "year": 2016,
+    "league_id": "GB1",
+    "total_market_value": 1921375000,
+    "player_count": 134,
+    "avg_player_value": 11715701.0,
+    "yoy_growth_pct": 79.9,
+    "league_name": "Premier League"
+  },
+  {
+    "year": 2016,
+    "league_id": "IT1",
+    "total_market_value": 2023475000,
+    "player_count": 703,
+    "avg_player_value": 2849965.0,
+    "yoy_growth_pct": -5.4,
+    "league_name": "Serie A"
+  },
+  {
+    "year": 2016,
+    "league_id": "L1",
+    "total_market_value": 498975000,
+    "player_count": 73,
+    "avg_player_value": 6742905.0,
+    "yoy_growth_pct": -37.8,
+    "league_name": "Bundesliga"
+  },
+  {
+    "year": 2017,
+    "league_id": "ES1",
+    "total_market_value": 2267055000,
+    "player_count": 598,
+    "avg_player_value": 3791062.0,
+    "yoy_growth_pct": 471.4,
+    "league_name": "La Liga"
+  },
+  {
+    "year": 2017,
+    "league_id": "FR1",
+    "total_market_value": 1626275000,
+    "player_count": 503,
+    "avg_player_value": 3233151.0,
+    "yoy_growth_pct": 434.3,
+    "league_name": "Ligue 1"
+  },
+  {
+    "year": 2017,
+    "league_id": "GB1",
+    "total_market_value": 331150000,
+    "player_count": 51,
+    "avg_player_value": 6493137.0,
+    "yoy_growth_pct": -82.8,
+    "league_name": "Premier League"
+  },
+  {
+    "year": 2017,
+    "league_id": "IT1",
+    "total_market_value": 1765875000,
+    "player_count": 473,
+    "avg_player_value": 3725475.0,
+    "yoy_growth_pct": -12.7,
+    "league_name": "Serie A"
+  },
+  {
+    "year": 2017,
+    "league_id": "L1",
+    "total_market_value": 220725000,
+    "player_count": 233,
+    "avg_player_value": 947318.0,
+    "yoy_growth_pct": -55.8,
+    "league_name": "Bundesliga"
+  },
+  {
+    "year": 2018,
+    "league_id": "ES1",
+    "total_market_value": 4203600000,
+    "player_count": 949,
+    "avg_player_value": 4424842.0,
+    "yoy_growth_pct": 85.4,
+    "league_name": "La Liga"
+  },
+  {
+    "year": 2018,
+    "league_id": "FR1",
+    "total_market_value": 1764450000,
+    "player_count": 406,
+    "avg_player_value": 4314059.0,
+    "yoy_growth_pct": 8.5,
+    "league_name": "Ligue 1"
+  },
+  {
+    "year": 2018,
+    "league_id": "GB1",
+    "total_market_value": 3110825000,
+    "player_count": 346,
+    "avg_player_value": 8990824.0,
+    "yoy_growth_pct": 839.4,
+    "league_name": "Premier League"
+  },
+  {
+    "year": 2018,
+    "league_id": "IT1",
+    "total_market_value": 259300000,
+    "player_count": 89,
+    "avg_player_value": 2913483.0,
+    "yoy_growth_pct": -85.3,
+    "league_name": "Serie A"
+  },
+  {
+    "year": 2018,
+    "league_id": "L1",
+    "total_market_value": 323325000,
+    "player_count": 362,
+    "avg_player_value": 893163.0,
+    "yoy_growth_pct": 46.5,
+    "league_name": "Bundesliga"
+  },
+  {
+    "year": 2019,
+    "league_id": "ES1",
+    "total_market_value": 156950000,
+    "player_count": 56,
+    "avg_player_value": 2753509.0,
+    "yoy_growth_pct": -96.3,
+    "league_name": "La Liga"
+  },
+  {
+    "year": 2019,
+    "league_id": "FR1",
+    "total_market_value": 216075000,
+    "player_count": 295,
+    "avg_player_value": 732458.0,
+    "yoy_growth_pct": -87.8,
+    "league_name": "Ligue 1"
+  },
+  {
+    "year": 2019,
+    "league_id": "GB1",
+    "total_market_value": 46075000,
+    "player_count": 51,
+    "avg_player_value": 903431.0,
+    "yoy_growth_pct": -98.5,
+    "league_name": "Premier League"
+  },
+  {
+    "year": 2019,
+    "league_id": "IT1",
+    "total_market_value": 962325000,
+    "player_count": 426,
+    "avg_player_value": 2258979.0,
+    "yoy_growth_pct": 271.1,
+    "league_name": "Serie A"
+  },
+  {
+    "year": 2019,
+    "league_id": "L1",
+    "total_market_value": 272000000,
+    "player_count": 357,
+    "avg_player_value": 761905.0,
+    "yoy_growth_pct": -15.9,
+    "league_name": "Bundesliga"
+  },
+  {
+    "year": 2020,
+    "league_id": "ES1",
+    "total_market_value": 95700000,
+    "player_count": 64,
+    "avg_player_value": 1495312.0,
+    "yoy_growth_pct": -39.0,
+    "league_name": "La Liga"
+  },
+  {
+    "year": 2020,
+    "league_id": "FR1",
+    "total_market_value": 216425000,
+    "player_count": 278,
+    "avg_player_value": 778507.0,
+    "yoy_growth_pct": 0.2,
+    "league_name": "Ligue 1"
+  },
+  {
+    "year": 2020,
+    "league_id": "GB1",
+    "total_market_value": 36900000,
+    "player_count": 23,
+    "avg_player_value": 1604348.0,
+    "yoy_growth_pct": -19.9,
+    "league_name": "Premier League"
+  },
+  {
+    "year": 2020,
+    "league_id": "IT1",
+    "total_market_value": 65600000,
+    "player_count": 59,
+    "avg_player_value": 1111864.0,
+    "yoy_growth_pct": -93.2,
+    "league_name": "Serie A"
+  },
+  {
+    "year": 2020,
+    "league_id": "L1",
+    "total_market_value": 57500000,
+    "player_count": 74,
+    "avg_player_value": 777027.0,
+    "yoy_growth_pct": -78.9,
+    "league_name": "Bundesliga"
+  },
+  {
+    "year": 2021,
+    "league_id": "ES1",
+    "total_market_value": 2505400000,
+    "player_count": 939,
+    "avg_player_value": 2665319.0,
+    "yoy_growth_pct": 2518.0,
+    "league_name": "La Liga"
+  },
+  {
+    "year": 2021,
+    "league_id": "FR1",
+    "total_market_value": 1066975000,
+    "player_count": 155,
+    "avg_player_value": 6883710.0,
+    "yoy_growth_pct": 393.0,
+    "league_name": "Ligue 1"
+  },
+  {
+    "year": 2021,
+    "league_id": "GB1",
+    "total_market_value": 669675000,
+    "player_count": 56,
+    "avg_player_value": 11958482.0,
+    "yoy_growth_pct": 1714.8,
+    "league_name": "Premier League"
+  },
+  {
+    "year": 2021,
+    "league_id": "IT1",
+    "total_market_value": 201475000,
+    "player_count": 500,
+    "avg_player_value": 402950.0,
+    "yoy_growth_pct": 207.1,
+    "league_name": "Serie A"
+  },
+  {
+    "year": 2021,
+    "league_id": "L1",
+    "total_market_value": 871850000,
+    "player_count": 253,
+    "avg_player_value": 3446047.0,
+    "yoy_growth_pct": 1416.3,
+    "league_name": "Bundesliga"
+  },
+  {
+    "year": 2022,
+    "league_id": "ES1",
+    "total_market_value": 77725000,
+    "player_count": 63,
+    "avg_player_value": 1233730.0,
+    "yoy_growth_pct": -96.9,
+    "league_name": "La Liga"
+  },
+  {
+    "year": 2022,
+    "league_id": "FR1",
+    "total_market_value": 74425000,
+    "player_count": 97,
+    "avg_player_value": 767268.0,
+    "yoy_growth_pct": -93.0,
+    "league_name": "Ligue 1"
+  },
+  {
+    "year": 2022,
+    "league_id": "GB1",
+    "total_market_value": 102800000,
+    "player_count": 53,
+    "avg_player_value": 1939623.0,
+    "yoy_growth_pct": -84.6,
+    "league_name": "Premier League"
+  },
+  {
+    "year": 2022,
+    "league_id": "IT1",
+    "total_market_value": 52475000,
+    "player_count": 78,
+    "avg_player_value": 672756.0,
+    "yoy_growth_pct": -74.0,
+    "league_name": "Serie A"
+  },
+  {
+    "year": 2022,
+    "league_id": "L1",
+    "total_market_value": 63525000,
+    "player_count": 70,
+    "avg_player_value": 907500.0,
+    "yoy_growth_pct": -92.7,
+    "league_name": "Bundesliga"
+  },
+  {
+    "year": 2023,
+    "league_id": "ES1",
+    "total_market_value": 22100000,
+    "player_count": 41,
+    "avg_player_value": 539024.0,
+    "yoy_growth_pct": -71.6,
+    "league_name": "La Liga"
+  },
+  {
+    "year": 2023,
+    "league_id": "FR1",
+    "total_market_value": 16175000,
+    "player_count": 26,
+    "avg_player_value": 622115.0,
+    "yoy_growth_pct": -78.3,
+    "league_name": "Ligue 1"
+  },
+  {
+    "year": 2023,
+    "league_id": "GB1",
+    "total_market_value": 431950000,
+    "player_count": 87,
+    "avg_player_value": 4964943.0,
+    "yoy_growth_pct": 320.2,
+    "league_name": "Premier League"
+  },
+  {
+    "year": 2023,
+    "league_id": "IT1",
+    "total_market_value": 6900000,
+    "player_count": 20,
+    "avg_player_value": 345000.0,
+    "yoy_growth_pct": -86.9,
+    "league_name": "Serie A"
+  },
+  {
+    "year": 2023,
+    "league_id": "L1",
+    "total_market_value": 11025000,
+    "player_count": 20,
+    "avg_player_value": 551250.0,
+    "yoy_growth_pct": -82.6,
+    "league_name": "Bundesliga"
+  },
+  {
+    "year": 2024,
+    "league_id": "ES1",
+    "total_market_value": 22000000,
+    "player_count": 2,
+    "avg_player_value": 11000000.0,
+    "yoy_growth_pct": -0.5,
+    "league_name": "La Liga"
+  },
+  {
+    "year": 2024,
+    "league_id": "FR1",
+    "total_market_value": 72500000,
+    "player_count": 3,
+    "avg_player_value": 24166667.0,
+    "yoy_growth_pct": 348.2,
+    "league_name": "Ligue 1"
+  },
+  {
+    "year": 2024,
+    "league_id": "GB1",
+    "total_market_value": 2488000000,
+    "player_count": 75,
+    "avg_player_value": 33173333.0,
+    "yoy_growth_pct": 476.0,
+    "league_name": "Premier League"
+  },
+  {
+    "year": 2024,
+    "league_id": "IT1",
+    "total_market_value": 60000000,
+    "player_count": 3,
+    "avg_player_value": 20000000.0,
+    "yoy_growth_pct": 769.6,
+    "league_name": "Serie A"
+  },
+  {
+    "year": 2024,
+    "league_id": "L1",
+    "total_market_value": 99000000,
+    "player_count": 4,
+    "avg_player_value": 24750000.0,
+    "yoy_growth_pct": 798.0,
+    "league_name": "Bundesliga"
+  },
+  {
+    "year": 2025,
+    "league_id": "ES1",
+    "total_market_value": 1200000,
+    "player_count": 1,
+    "avg_player_value": 1200000.0,
+    "yoy_growth_pct": -94.5,
+    "league_name": "La Liga"
+  },
+  {
+    "year": 2025,
+    "league_id": "FR1",
+    "total_market_value": 97100000,
+    "player_count": 13,
+    "avg_player_value": 7469231.0,
+    "yoy_growth_pct": 33.9,
+    "league_name": "Ligue 1"
+  },
+  {
+    "year": 2025,
+    "league_id": "GB1",
+    "total_market_value": 113000000,
+    "player_count": 12,
+    "avg_player_value": 9416667.0,
+    "yoy_growth_pct": -95.5,
+    "league_name": "Premier League"
+  },
+  {
+    "year": 2025,
+    "league_id": "IT1",
+    "total_market_value": 10700000,
+    "player_count": 7,
+    "avg_player_value": 1528571.0,
+    "yoy_growth_pct": -82.2,
+    "league_name": "Serie A"
+  },
+  {
+    "year": 2025,
+    "league_id": "L1",
+    "total_market_value": 29600000,
+    "player_count": 5,
+    "avg_player_value": 5920000.0,
+    "yoy_growth_pct": -70.1,
+    "league_name": "Bundesliga"
+  }
 ]

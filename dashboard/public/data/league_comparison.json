@@ -1,7 +1,47 @@
 [
-  {"league":"Premier League","league_id":"GB1","total_value":12100000000,"avg_value":21530249,"player_count":562,"top_club":"Manchester City","top_club_value":1230000000},
-  {"league":"La Liga","league_id":"ES1","total_value":7000000000,"avg_value":13409962,"player_count":522,"top_club":"Real Madrid","top_club_value":1120000000},
-  {"league":"Bundesliga","league_id":"L1","total_value":5600000000,"avg_value":11336032,"player_count":494,"top_club":"Bayern Munich","top_club_value":890000000},
-  {"league":"Serie A","league_id":"IT1","total_value":5800000000,"avg_value":10583942,"player_count":548,"top_club":"Inter Milan","top_club_value":720000000},
-  {"league":"Ligue 1","league_id":"FR1","total_value":4600000000,"avg_value":9623431,"player_count":478,"top_club":"PSG","top_club_value":980000000}
+  {
+    "league_id": "GB1",
+    "total_value": 12695575000,
+    "avg_value": 22957640.0,
+    "player_count": 526,
+    "top_club": null,
+    "top_club_value": null,
+    "league": "Premier League"
+  },
+  {
+    "league_id": "ES1",
+    "total_value": 10547350000,
+    "avg_value": 12307293.0,
+    "player_count": 450,
+    "top_club": null,
+    "top_club_value": null,
+    "league": "La Liga"
+  },
+  {
+    "league_id": "FR1",
+    "total_value": 5190025000,
+    "avg_value": 8522209.0,
+    "player_count": 470,
+    "top_club": null,
+    "top_club_value": null,
+    "league": "Ligue 1"
+  },
+  {
+    "league_id": "L1",
+    "total_value": 4348150000,
+    "avg_value": 10579440.0,
+    "player_count": 390,
+    "top_club": null,
+    "top_club_value": null,
+    "league": "Bundesliga"
+  },
+  {
+    "league_id": "IT1",
+    "total_value": 1793000000,
+    "avg_value": 8832512.0,
+    "player_count": 184,
+    "top_club": null,
+    "top_club_value": null,
+    "league": "Serie A"
+  }
 ]
