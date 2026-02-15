@@ -66,11 +66,16 @@
 - [x] public/data/player_positions.json -- Position-Treemap, Value Distribution Histogram
 - [x] dashboard/src/types/data.ts -- TypeScript Interfaces fuer alle JSON-Strukturen
 
-### Phase 5d: Datenqualitaet -- ERLEDIGT
+### Phase 5d: Datenqualitaet -- TEILWEISE ERLEDIGT
 - [x] Liga-Namen: Competition-IDs auf Klarnamen gemappt (Premier League statt premier-league)
 - [x] Club-Namen: Juristische Vollnamen gekuerzt (Man City statt Manchester City Football Club)
 - [x] Age Groups: Logische Sortierung (U21, 21-24, ...) statt alphabetisch
 - [x] ROI: Gekappt bei +/-200% -- Akademie-lastige Clubs (Real, Barca) hatten sonst verzerrte Werte
+- [ ] **Validierung ausstehend**: Manche Plots zeigen keine Daten, manche Metriken wirken falsch
+- [ ] Gruendliche Pruefung aller Seiten und Metriken gegen die SQLite-Quelldaten
+
+### Phase 5e: Layout-Bugfixes -- ERLEDIGT
+- [x] Sidebar-Overlap behoben: fixed-Positioning durch CSS Grid (224px + 1fr) ersetzt
 
 ### Phase 6: Deployment -- ERLEDIGT
 - [x] Vite base path konfiguriert ('/first_project/')
@@ -86,7 +91,11 @@
 
 ## Naechster Schritt (naechste Session)
 
-Alle Seiten nutzen jetzt echte Daten. Moegliche Verbesserungen:
+### Prioritaet 1: Datenvalidierung
+- Alle 6 Dashboard-Seiten systematisch durchgehen
+- Leere Plots identifizieren und fixen (fehlende Daten oder falsches Mapping)
+- Metriken gegen SQLite-Quelldaten abgleichen (Stichproben)
+- Verdaechtige Werte pruefen (z.B. ROI-Extremwerte, fehlende Ligen)
 
 ### Optionale Erweiterungen:
 1. **Responsive Design**: Mobile Breakpoints in allen Pages ergaenzen (derzeit Desktop-only)
@@ -98,6 +107,7 @@ Alle Seiten nutzen jetzt echte Daten. Moegliche Verbesserungen:
 
 ## Bekannte Issues
 
+- **Datenvalidierung**: Manche Plots zeigen keine Daten, manche Metriken wirken verdaechtig falsch
 - **Responsive Design**: Desktop-optimiert, mobile Breakpoints fehlen
 - **clubs.total_market_value**: Spalte ist NULL im Kaggle-Datensatz -- Cluster-Modell
   nutzt stattdessen Werte aus player_valuations aggregiert nach Club
