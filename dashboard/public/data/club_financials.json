@@ -1,12 +1,12 @@
 [
   {
-    "name": "Real Madrid Club de F\u00fatbol",
-    "league": "laliga",
+    "name": "Real Madrid",
+    "league": "La Liga",
     "squad_value": 1517525000,
     "avg_age": 26.3,
     "star_dependency": 13.18,
     "invested_5yr": 485500000,
-    "roi": 212.57,
+    "roi": 200.0,
     "positions": {
       "Attack": 537500000,
       "Midfield": 563550000,
@@ -14,6 +14,11 @@
       "Goalkeeper": 45575000
     },
     "age_groups": [
+      {
+        "group": "U21",
+        "count": 4,
+        "value": 211000000.0
+      },
       {
         "group": "21-24",
         "count": 13,
@@ -33,22 +38,17 @@
         "group": "33+",
         "count": 10,
         "value": 85250000.0
-      },
-      {
-        "group": "U21",
-        "count": 4,
-        "value": 211000000.0
       }
     ]
   },
   {
-    "name": "Manchester City Football Club",
-    "league": "premier-league",
+    "name": "Man City",
+    "league": "Premier League",
     "squad_value": 1356275000,
     "avg_age": 25.9,
     "star_dependency": 14.75,
     "invested_5yr": 1098300000,
-    "roi": 23.49,
+    "roi": 23.5,
     "positions": {
       "Attack": 461525000,
       "Midfield": 403650000,
@@ -56,6 +56,11 @@
       "Goalkeeper": 74350000
     },
     "age_groups": [
+      {
+        "group": "U21",
+        "count": 5,
+        "value": 56900000.0
+      },
       {
         "group": "21-24",
         "count": 18,
@@ -75,22 +80,17 @@
         "group": "33+",
         "count": 13,
         "value": 23075000.0
-      },
-      {
-        "group": "U21",
-        "count": 5,
-        "value": 56900000.0
       }
     ]
   },
   {
-    "name": "Arsenal Football Club",
-    "league": "premier-league",
+    "name": "Arsenal",
+    "league": "Premier League",
     "squad_value": 1328625000,
     "avg_age": 26.3,
     "star_dependency": 9.78,
     "invested_5yr": 1040900000,
-    "roi": 27.64,
+    "roi": 27.6,
     "positions": {
       "Attack": 413300000,
       "Midfield": 416125000,
@@ -98,6 +98,11 @@
       "Goalkeeper": 49100000
     },
     "age_groups": [
+      {
+        "group": "U21",
+        "count": 2,
+        "value": 60000000.0
+      },
       {
         "group": "21-24",
         "count": 23,
@@ -117,22 +122,17 @@
         "group": "33+",
         "count": 15,
         "value": 27900000.0
-      },
-      {
-        "group": "U21",
-        "count": 2,
-        "value": 60000000.0
       }
     ]
   },
   {
-    "name": "Paris Saint-Germain Football Club",
-    "league": "ligue-1",
+    "name": "PSG",
+    "league": "Ligue 1",
     "squad_value": 1306300000,
     "avg_age": 23.9,
     "star_dependency": 7.66,
     "invested_5yr": 1042620000,
-    "roi": 25.29,
+    "roi": 25.3,
     "positions": {
       "Attack": 497750000,
       "Midfield": 368000000,
@@ -140,6 +140,11 @@
       "Goalkeeper": 62650000
     },
     "age_groups": [
+      {
+        "group": "U21",
+        "count": 9,
+        "value": 196500000.0
+      },
       {
         "group": "21-24",
         "count": 16,
@@ -159,22 +164,17 @@
         "group": "33+",
         "count": 18,
         "value": 129100000.0
-      },
-      {
-        "group": "U21",
-        "count": 9,
-        "value": 196500000.0
       }
     ]
   },
   {
-    "name": "Chelsea Football Club",
-    "league": "premier-league",
+    "name": "Chelsea",
+    "league": "Premier League",
     "squad_value": 1270225000,
     "avg_age": 23.4,
     "star_dependency": 9.45,
     "invested_5yr": 1739080000,
-    "roi": -26.96,
+    "roi": -27.0,
     "positions": {
       "Attack": 410100000,
       "Midfield": 432875000,
@@ -182,6 +182,11 @@
       "Goalkeeper": 54100000
     },
     "age_groups": [
+      {
+        "group": "U21",
+        "count": 14,
+        "value": 179450000.0
+      },
       {
         "group": "21-24",
         "count": 27,
@@ -201,22 +206,17 @@
         "group": "33+",
         "count": 12,
         "value": 33400000.0
-      },
-      {
-        "group": "U21",
-        "count": 14,
-        "value": 179450000.0
       }
     ]
   },
   {
-    "name": "Liverpool Football Club",
-    "league": "premier-league",
+    "name": "Liverpool",
+    "league": "Premier League",
     "squad_value": 1262275000,
     "avg_age": 25.8,
     "star_dependency": 9.51,
     "invested_5yr": 985900000,
-    "roi": 28.03,
+    "roi": 28.0,
     "positions": {
       "Attack": 477300000,
       "Midfield": 484350000,
@@ -224,6 +224,11 @@
       "Goalkeeper": 49050000
     },
     "age_groups": [
+      {
+        "group": "U21",
+        "count": 6,
+        "value": 48200000.0
+      },
       {
         "group": "21-24",
         "count": 25,
@@ -243,22 +248,17 @@
         "group": "33+",
         "count": 13,
         "value": 107500000.0
-      },
-      {
-        "group": "U21",
-        "count": 6,
-        "value": 48200000.0
       }
     ]
   },
   {
-    "name": "Futbol Club Barcelona",
-    "league": "laliga",
+    "name": "Barcelona",
+    "league": "La Liga",
     "squad_value": 1213625000,
     "avg_age": 25.5,
     "star_dependency": 16.48,
     "invested_5yr": 358400000,
-    "roi": 238.62,
+    "roi": 200.0,
     "positions": {
       "Attack": 405000000,
       "Midfield": 434425000,
@@ -266,6 +266,11 @@
       "Goalkeeper": 32500000
     },
     "age_groups": [
+      {
+        "group": "U21",
+        "count": 7,
+        "value": 310600000.0
+      },
       {
         "group": "21-24",
         "count": 12,
@@ -285,22 +290,17 @@
         "group": "33+",
         "count": 15,
         "value": 47325000.0
-      },
-      {
-        "group": "U21",
-        "count": 7,
-        "value": 310600000.0
       }
     ]
   },
   {
-    "name": "FC Bayern M\u00fcnchen",
-    "league": "bundesliga",
+    "name": "Bayern Munich",
+    "league": "Bundesliga",
     "squad_value": 1017525000,
     "avg_age": 26.7,
     "star_dependency": 13.76,
     "invested_5yr": 573300000,
-    "roi": 77.49,
+    "roi": 77.5,
     "positions": {
       "Attack": 411225000,
       "Midfield": 306575000,
@@ -308,6 +308,11 @@
       "Goalkeeper": 21600000
     },
     "age_groups": [
+      {
+        "group": "U21",
+        "count": 11,
+        "value": 40100000.0
+      },
       {
         "group": "21-24",
         "count": 16,
@@ -327,22 +332,17 @@
         "group": "33+",
         "count": 15,
         "value": 59275000.0
-      },
-      {
-        "group": "U21",
-        "count": 11,
-        "value": 40100000.0
       }
     ]
   },
   {
-    "name": "Tottenham Hotspur Football Club",
-    "league": "premier-league",
+    "name": "Tottenham",
+    "league": "Premier League",
     "squad_value": 990850000,
     "avg_age": 25.7,
     "star_dependency": 6.56,
     "invested_5yr": 961850000,
-    "roi": 3.02,
+    "roi": 3.0,
     "positions": {
       "Attack": 275250000,
       "Midfield": 351075000,
@@ -350,6 +350,11 @@
       "Goalkeeper": 47450000
     },
     "age_groups": [
+      {
+        "group": "U21",
+        "count": 6,
+        "value": 112700000.0
+      },
       {
         "group": "21-24",
         "count": 10,
@@ -369,22 +374,17 @@
         "group": "33+",
         "count": 12,
         "value": 58500000.0
-      },
-      {
-        "group": "U21",
-        "count": 6,
-        "value": 112700000.0
       }
     ]
   },
   {
-    "name": "Manchester United Football Club",
-    "league": "premier-league",
+    "name": "Man United",
+    "league": "Premier League",
     "squad_value": 875500000,
     "avg_age": 25.9,
     "star_dependency": 8.57,
     "invested_5yr": 1006820000,
-    "roi": -13.04,
+    "roi": -13.0,
     "positions": {
       "Attack": 371300000,
       "Midfield": 188825000,
@@ -392,6 +392,11 @@
       "Goalkeeper": 17500000
     },
     "age_groups": [
+      {
+        "group": "U21",
+        "count": 7,
+        "value": 132200000.0
+      },
       {
         "group": "21-24",
         "count": 17,
@@ -411,22 +416,17 @@
         "group": "33+",
         "count": 20,
         "value": 40675000.0
-      },
-      {
-        "group": "U21",
-        "count": 7,
-        "value": 132200000.0
       }
     ]
   },
   {
-    "name": "Newcastle United Football Club",
-    "league": "premier-league",
+    "name": "Newcastle",
+    "league": "Premier League",
     "squad_value": 788150000,
     "avg_age": 27.9,
     "star_dependency": 9.52,
     "invested_5yr": 819000000,
-    "roi": -3.77,
+    "roi": -3.8,
     "positions": {
       "Attack": 326225000,
       "Midfield": 248875000,
@@ -434,6 +434,11 @@
       "Goalkeeper": 20800000
     },
     "age_groups": [
+      {
+        "group": "U21",
+        "count": 3,
+        "value": 20300000.0
+      },
       {
         "group": "21-24",
         "count": 15,
@@ -453,22 +458,17 @@
         "group": "33+",
         "count": 25,
         "value": 33000000.0
-      },
-      {
-        "group": "U21",
-        "count": 3,
-        "value": 20300000.0
       }
     ]
   },
   {
-    "name": "Football Club Internazionale Milano S.p.A.",
-    "league": "serie-a",
+    "name": "Inter Milan",
+    "league": "Serie A",
     "squad_value": 717410000,
     "avg_age": 29.1,
     "star_dependency": 11.85,
     "invested_5yr": 318800000,
-    "roi": 125.03,
+    "roi": 125.0,
     "positions": {
       "Attack": 234950000,
       "Midfield": 237510000,
@@ -476,6 +476,11 @@
       "Goalkeeper": 13750000
     },
     "age_groups": [
+      {
+        "group": "U21",
+        "count": 4,
+        "value": 30500000.0
+      },
       {
         "group": "21-24",
         "count": 20,
@@ -495,22 +500,17 @@
         "group": "33+",
         "count": 27,
         "value": 57900000.0
-      },
-      {
-        "group": "U21",
-        "count": 4,
-        "value": 30500000.0
       }
     ]
   },
   {
-    "name": "Aston Villa Football Club",
-    "league": "premier-league",
+    "name": "Aston Villa",
+    "league": "Premier League",
     "squad_value": 691900000,
     "avg_age": 28.0,
     "star_dependency": 10.12,
     "invested_5yr": 625500000,
-    "roi": 10.62,
+    "roi": 10.6,
     "positions": {
       "Attack": 192750000,
       "Midfield": 306900000,
@@ -518,6 +518,11 @@
       "Goalkeeper": 24600000
     },
     "age_groups": [
+      {
+        "group": "U21",
+        "count": 3,
+        "value": 8750000.0
+      },
       {
         "group": "21-24",
         "count": 26,
@@ -537,22 +542,17 @@
         "group": "33+",
         "count": 33,
         "value": 47925000.0
-      },
-      {
-        "group": "U21",
-        "count": 3,
-        "value": 8750000.0
       }
     ]
   },
   {
     "name": "Associazione Calcio Milan",
-    "league": "serie-a",
+    "league": "Serie A",
     "squad_value": 688045000,
     "avg_age": 27.1,
     "star_dependency": 13.08,
     "invested_5yr": 555710000,
-    "roi": 23.81,
+    "roi": 23.8,
     "positions": {
       "Attack": 274235000,
       "Midfield": 162685000,
@@ -560,6 +560,11 @@
       "Goalkeeper": 47750000
     },
     "age_groups": [
+      {
+        "group": "U21",
+        "count": 4,
+        "value": 8600000.0
+      },
       {
         "group": "21-24",
         "count": 21,
@@ -579,22 +584,17 @@
         "group": "33+",
         "count": 23,
         "value": 27535000.0
-      },
-      {
-        "group": "U21",
-        "count": 4,
-        "value": 8600000.0
       }
     ]
   },
   {
-    "name": "Nottingham Forest Football Club",
-    "league": "premier-league",
+    "name": "Nott. Forest",
+    "league": "Premier League",
     "squad_value": 674850000,
     "avg_age": 26.4,
     "star_dependency": 9.63,
     "invested_5yr": 609010000,
-    "roi": 10.81,
+    "roi": 10.8,
     "positions": {
       "Attack": 177700000,
       "Midfield": 268350000,
@@ -602,6 +602,11 @@
       "Goalkeeper": 28700000
     },
     "age_groups": [
+      {
+        "group": "U21",
+        "count": 4,
+        "value": 13450000.0
+      },
       {
         "group": "21-24",
         "count": 17,
@@ -621,22 +626,17 @@
         "group": "33+",
         "count": 13,
         "value": 35350000.0
-      },
-      {
-        "group": "U21",
-        "count": 4,
-        "value": 13450000.0
       }
     ]
   },
   {
-    "name": "Club Atl\u00e9tico de Madrid S.A.D.",
-    "league": "laliga",
+    "name": "Atletico Madrid",
+    "league": "La Liga",
     "squad_value": 656400000,
     "avg_age": 27.5,
     "star_dependency": 15.23,
     "invested_5yr": 571200000,
-    "roi": 14.92,
+    "roi": 14.9,
     "positions": {
       "Attack": 346950000,
       "Midfield": 139975000,
@@ -644,6 +644,11 @@
       "Goalkeeper": 18825000
     },
     "age_groups": [
+      {
+        "group": "U21",
+        "count": 3,
+        "value": 23500000.0
+      },
       {
         "group": "21-24",
         "count": 22,
@@ -663,22 +668,17 @@
         "group": "33+",
         "count": 19,
         "value": 50425000.0
-      },
-      {
-        "group": "U21",
-        "count": 3,
-        "value": 23500000.0
       }
     ]
   },
   {
-    "name": "Juventus Football Club",
-    "league": "serie-a",
+    "name": "Juventus",
+    "league": "Serie A",
     "squad_value": 639285000,
     "avg_age": 27.2,
     "star_dependency": 11.73,
     "invested_5yr": 600350000,
-    "roi": 6.49,
+    "roi": 6.5,
     "positions": {
       "Attack": 288175000,
       "Midfield": 176285000,
@@ -686,6 +686,11 @@
       "Goalkeeper": 21175000
     },
     "age_groups": [
+      {
+        "group": "U21",
+        "count": 2,
+        "value": 83000000.0
+      },
       {
         "group": "21-24",
         "count": 18,
@@ -705,22 +710,17 @@
         "group": "33+",
         "count": 22,
         "value": 36500000.0
-      },
-      {
-        "group": "U21",
-        "count": 2,
-        "value": 83000000.0
       }
     ]
   },
   {
-    "name": "Crystal Palace Football Club",
-    "league": "premier-league",
+    "name": "Crystal Palace",
+    "league": "Premier League",
     "squad_value": 555585000,
     "avg_age": 26.3,
     "star_dependency": 10.8,
     "invested_5yr": 373020000,
-    "roi": 48.94,
+    "roi": 48.9,
     "positions": {
       "Attack": 222600000,
       "Midfield": 132500000,
@@ -728,6 +728,11 @@
       "Goalkeeper": 35900000
     },
     "age_groups": [
+      {
+        "group": "U21",
+        "count": 4,
+        "value": 22000000.0
+      },
       {
         "group": "21-24",
         "count": 23,
@@ -747,22 +752,17 @@
         "group": "33+",
         "count": 45,
         "value": 32225000.0
-      },
-      {
-        "group": "U21",
-        "count": 4,
-        "value": 22000000.0
       }
     ]
   },
   {
     "name": "Associazione Sportiva Roma",
-    "league": "serie-a",
+    "league": "Serie A",
     "squad_value": 552620000,
     "avg_age": 26.0,
     "star_dependency": 9.05,
     "invested_5yr": 320420000,
-    "roi": 72.47,
+    "roi": 72.5,
     "positions": {
       "Attack": 184510000,
       "Midfield": 178800000,
@@ -770,6 +770,11 @@
       "Goalkeeper": 10175000
     },
     "age_groups": [
+      {
+        "group": "U21",
+        "count": 4,
+        "value": 7700000.0
+      },
       {
         "group": "21-24",
         "count": 36,
@@ -789,22 +794,17 @@
         "group": "33+",
         "count": 20,
         "value": 24525000.0
-      },
-      {
-        "group": "U21",
-        "count": 4,
-        "value": 7700000.0
       }
     ]
   },
   {
-    "name": "Brighton and Hove Albion Football Club",
-    "league": "premier-league",
+    "name": "Brighton",
+    "league": "Premier League",
     "squad_value": 550275000,
     "avg_age": 27.4,
     "star_dependency": 10.9,
     "invested_5yr": 522750000,
-    "roi": 5.27,
+    "roi": 5.3,
     "positions": {
       "Attack": 156700000,
       "Midfield": 216150000,
@@ -812,6 +812,11 @@
       "Goalkeeper": 40150000
     },
     "age_groups": [
+      {
+        "group": "U21",
+        "count": 3,
+        "value": 49000000.0
+      },
       {
         "group": "21-24",
         "count": 26,
@@ -831,11 +836,6 @@
         "group": "33+",
         "count": 18,
         "value": 21650000.0
-      },
-      {
-        "group": "U21",
-        "count": 3,
-        "value": 49000000.0
       }
     ]
   }
